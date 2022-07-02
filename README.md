@@ -52,7 +52,7 @@
 
 ## HEROKU
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Toshiro-sama/Mizuhara/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Toshiro-sama/Mizuhara-1/)
 
 ## Clone this project
 ```bash
