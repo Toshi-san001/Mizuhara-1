@@ -17,9 +17,9 @@ global.port = process.env.PORT || 8080;
   (global.sessionName = "arus"),
   (global.name = process.env.NAME || "Mizuhara"),
   (global.menu =
-    "*❤️(◍•ᴗ•◍)❤ Kon'nichiwa 👋🏻 ${pushname} Darling I'm Mizuhara*
+    "*❤️(◍•ᴗ•◍)❤ Kon'nichiwa 👋🏻 Darling I'm Mizuhara*
 
-🎐My Prefix is - ${prefix}
+🎐My Prefix is - =
 
 📪 My all usable commands are listed below 📪 
 
