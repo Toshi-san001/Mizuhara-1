@@ -171,11 +171,11 @@ case '':
 
 
     const dbut = [
-{buttonId: `${prefix}help`, buttonText: {displayText: 'Commands'}, type: 1},
-{buttonId: `${prefix}info`, buttonText: {displayText: 'Bot status'}, type: 1}
+{buttonId: `${prefix}help`, buttonText: {displayText: '🚀Commands'}, type: 1},
+{buttonId: `${prefix}info`, buttonText: {displayText: '🎐Bot status'}, type: 1}
 ]
 let buttonMessaged = {
-        text: `Hey *${pushname}* I am ${name}. Do you mean: ${prefix}help`,
+        text: `Konnichiwa👋🏻 *${pushname}* I am ${name}. Do you mean: ${prefix}help`,
         footer: '@ARUS',
         buttons: dbut,
         headerType: 4
@@ -204,7 +204,7 @@ break
         return ' ' + pad(hrs) + ':' + pad(mins) + ':' + pad(secs)
     }
 	    const dbut = [
-{buttonId: `${prefix}help`, buttonText: {displayText: 'Commands'}, type: 1}
+{buttonId: `${prefix}help`, buttonText: {displayText: '🍁Commands🍁'}, type: 1}
 ]
     const uptime = process.uptime()
 	let tr = await user.countDocuments()
@@ -213,7 +213,7 @@ break
                 let anu = groups.map(v => v.id)
 	let ur = anu.length
 	let b = await user.countDocuments({ ban : "true" })
-let ter = `🧧 *Commands*: 55\n🔧 *Users*: ${tr}\n💚 *Groups*: ${ur}\n🚫 *Ban_Users*: ${b}\n⛩ *Moderators*: ${owner.length}`
+let ter = `🧧 *Commands*: 55\n👥 *Users*: ${tr}\n🔰 *Groups*: ${ur}\n🚫 *Ban_Users*: ${b}\n⛩ *Moderators*: ${owner.length}`
 console.log(ter)
    let buttonMessaged = {
         text: ter,
@@ -241,80 +241,9 @@ break
 		   case "h":
 		   case "help":
 		   case 'menu':{ 
-			const hlp=`
- *❤️(◍•ᴗ•◍)❤Kon'nichiwa 👋🏻 ${pushname} Senpai I'm Mizuhara* 
-
-🎐My Prefix is: ${prefix}
-
-📪 My all usable commands are listed below 📪 
-
-*━━━━『🍁Dev🍁』━━━━*
-☘︎ update
-☘︎ broadcast
-☘︎ ban
-☘︎ unban
-☘︎ chatid
-☘︎ session
-☘︎ Join
-*━━━━『🔰General🔰』━━━━*
-☮︎ help
-☮︎ delete
-☮︎ info
-☮︎ rank
-☮︎ profile
-*━━━━『🎋Fun🎋』━━━━*
-❄︎ ship
-❄︎ advice
-❄︎ quote
-❄︎ leaderboard
-❄︎ react
-❄︎ fact
-❄︎ bot
-*━━━━『◀️Media◀️』━━━━*
-♪ yta
-♪ ytv
-♪ play
-♪ gify
-♪ yts
-♪ lyrics
-*━━━━『⚡Moderation⚡』━━━━*
-❀ demote
-❀ remove
-❀ ping
-❀ promote
-❀ deact
-❀ act
-❀ invite
-❀ group
-❀ seticon
-❀ setdesc
-
-*━━━━『🧧Weeb🧧』━━━━*
-シ︎ anime
-シ︎ manga
-シ︎ charecter
-シ︎ haigusha
-シ︎ neko
-シ︎ waifu
-シ︎ pokemon
-
-*━━━━『💻Utils💻』━━━━*
-🎐 google
-🎐 image
-🎐 meme
-🎐 subreddit
-🎐 tourl
-🎐 img
-🎐 iguser
-🎐 gif
-🎐 sticker
-🎐 take
-🎐 pinterest
-🎐 carbon
-
- 🍁 *©Powered by Arus* 🍁`
-
-  
+			     arus.sendMessage(m.chat, { text: menu, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})
+ }
+			   break
 		   case 'session': {
 			   if (!isCreator) return m.reply("📍The user of this command must be the owner of the bot")
 			   const session = require(`./${sessionName}.json`)
