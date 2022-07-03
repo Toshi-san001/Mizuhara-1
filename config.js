@@ -16,6 +16,8 @@ global.port = process.env.PORT || 8080;
   (global.author = process.env.AUTHOR || "ARUS"),
   (global.sessionName = "arus"),
   (global.name = process.env.NAME || "Mizuhara"),
+  (global.menu =
+    "🏮 *Kon'nichiwa Darling I'm Mizuhara* 🏮\n\n🎐My Prefix is: = \n\n📪 My all usable commands are listed below 📪 \n\n*━━━━『🍁Dev🍁』━━━━*\n❐ ```update, broadcast, ban, unban, chatid, session, join```\n\n*━━━━『🔰General🔰』━━━━*\n❐ ```help, delete, info, rank, profile```\n\n*━━━━『🎋Fun🎋』━━━━*\n❐ ```ship, advice, quote, leaderboard, react, fact, bot```\n\n*━━━━『◀️Media◀️』━━━━*\n❐ ```yta, ytv, play, gify, yts, lyrics```\n\n*━━━━『⚡Moderation⚡』━━━━*\n❐ ```demote, remove, ping, promote, deact, act, invite, group, seticon, setdesc```\n\n*━━━━『🧧Weeb🧧』━━━━*\n❐ ```anime, manga, charecter, haigusha, neko, waifu, pokemon```\n\n*━━━━『💻Utils💻』━━━━*\n❐ ```google, image, meme, subreddit, tourl, img, iguser, gif, sticker, take, pinterest, carbon```\n\n *🕊️ 𝙏𝙝𝙚 𝘽𝙚𝙨𝙩 𝙞𝙨 𝙔𝙚𝙩 𝙩𝙤 𝘽𝙚 価*"),
   (global.thumb = fs.readFileSync("./src/info.jpeg"));
 
 let file = require.resolve(__filename);
