@@ -175,8 +175,8 @@ case '':
 {buttonId: '${prefix}info', buttonText: {displayText: '🎐Bot status'}, type: 1}
 ]
 let buttonMessaged = {
-        file: {url:"https://telegra.ph/file/2784b7eca3aabea3addf6.mp4"},
-        caption: `*DID YOU MEAN ${prefix}help ?*`,
+        image: {url:"https://telegra.ph/file/5701d54c0e3e6f51aa161.jpg"},
+        caption: `*Kon'nichiwa ${pushname} Did You Mean ${prefix}help ?*`,
         footer: '©Arus 2022',
         buttons: dbut,
         headerType: 4
@@ -272,7 +272,7 @@ break
 ━━『💻Utils💻』━━
 ❐ google, image, meme, subreddit, tourl, img, iguser, gif, sticker, take, pinterest, carbon
 
- シ︎ 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 シ︎`			     
+ 🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`			     
 const hhbut = [
 {buttonId: '=info', buttonText: {displayText: ' Info'}, type: 1},
 {buttonId: '=profile', buttonText: {displayText: ' Profile'}, type: 1}
