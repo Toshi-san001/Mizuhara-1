@@ -171,13 +171,13 @@ case '':
 
 
     const dbut = [
-{buttonId: `${prefix}help`, buttonText: {displayText: '🚀Commands'}, type: 1},
-{buttonId: `${prefix}info`, buttonText: {displayText: '🎐Bot status'}, type: 1}
+{buttonId: '${prefix}help', buttonText: {displayText: 'Help'}, type: 1},
+{buttonId: '${prefix}mods', buttonText: {displayText: 'Bot status'}, type: 1}
 ]
 let buttonMessaged = {
-        image: {url:"https://telegra.ph/file/35da68163c7ab58fdd80b.jpg"},
-        text: `❤️(◍•ᴗ•◍)❤Konnichiwa👋🏻 *${pushname}* I am ${name}. Do you mean: ${prefix}help`,
-        footer: '©ARUS',
+        image: {url:"https://telegra.ph/file/645707c1698c8a9515953.jpg"},
+        caption: `*DID YOU MEAN ${prefix}help ?*`,
+        footer: '©Arus 2022',
         buttons: dbut,
         headerType: 4
     }
