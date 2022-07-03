@@ -52,7 +52,7 @@ module.exports = arus = async (arus, m, chatUpdate, store) => {
         const botNumber = await arus.decodeJid(arus.user.id)
         const isCreator = [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
         const itsMe = m.sender == botNumber ? true : false
-		 const botName = process.env.NAME || "Mizuhara"
+		 const botName = process.env.NAME || "Tokisaki-Kurumi"
 		const ter = args.join(' ') 
         const contant = q = args.join(" ")
         const quoted = m.quoted ? m.quoted : m
@@ -171,13 +171,12 @@ case '':
 
 
     const dbut = [
-{buttonId: `${prefix}help`, buttonText: {displayText: '🚀Commands'}, type: 1},
-{buttonId: `${prefix}info`, buttonText: {displayText: '🎐Bot status'}, type: 1}
+{buttonId: `${prefix}help`, buttonText: {displayText: 'Commands'}, type: 1},
+{buttonId: `${prefix}info`, buttonText: {displayText: 'Bot status'}, type: 1}
 ]
 let buttonMessaged = {
-        image: {url:"https://telegra.ph/file/35da68163c7ab58fdd80b.jpg"},
-        text: `❤️(◍•ᴗ•◍)❤Konnichiwa👋🏻 *${pushname}* I am ${name}. Do you mean: ${prefix}help`,
-        footer: '©ARUS',
+        text: `Konichiwa *${pushname}-san*\nWatashi Tokisaki Kurumi.\nUse ${prefix}help to use me😏`,
+        footer: '@AKU',
         buttons: dbut,
         headerType: 4
     }
@@ -205,7 +204,7 @@ break
         return ' ' + pad(hrs) + ':' + pad(mins) + ':' + pad(secs)
     }
 	    const dbut = [
-{buttonId: `${prefix}help`, buttonText: {displayText: '🍁Commands🍁'}, type: 1}
+{buttonId: `${prefix}help`, buttonText: {displayText: 'Commands'}, type: 1}
 ]
     const uptime = process.uptime()
 	let tr = await user.countDocuments()
@@ -214,11 +213,11 @@ break
                 let anu = groups.map(v => v.id)
 	let ur = anu.length
 	let b = await user.countDocuments({ ban : "true" })
-let ter = `🧧 *Commands*: 55\n👥 *Users*: ${tr}\n🔰 *Groups*: ${ur}\n🚫 *Ban_Users*: ${b}\n⛩ *Moderators*: ${owner.length}`
+let ter = `🧧 *Commands*: 55\n🔧 *Users*: ${tr}\n💚 *Groups*: ${ur}\n🚫 *Ban_Users*: ${b}\n⛩ *Moderators*: ${owner.length}`
 console.log(ter)
    let buttonMessaged = {
         text: ter,
-        footer: '@ARUS',
+        footer: '@AKU',
         buttons: dbut,
         headerType: 4
     }
@@ -239,12 +238,66 @@ console.log(err)
 }
 }
 break
+
+
+//"🔰 *General*\n❐ ```profile, rank, exp, delete, help, creator, mods, info, groupinfo```\n\n🏮 *Weeb*\n❐ ```neko, waifu, holo, fox_girl, baka, character, meme, quote, kemonomimi, manga, wallpaper, shinobu, megumin, awoo, marry, divorce, couple, coffee, ppcouple, mysoulmate```\n\n❄️ *Group Commands*\n❐ ```ping, add, kick, promote, demote, group open/close, invite, enable/act disable/deact, antilink, events```\n\n💻 *Economy*\n❐ ```bank, daily, wallet, deposit, withdraw, deck, buy, rob, gamble, shop, leaderboard```\n\n💻 *Utils*\n❐ ```sticker, toimg, togif, tourl, steal, emojimix, google, image```\n\n🎵 *Media*\n❐ ```yts, ytv, yta, lyrics, pinterest```\n\n💦 *NSFW*\n❐ ```spank, blowjob,lick, lesbian, pussy, cum, boobs, hentai-waifu, trap, hneko, ero, ass, hentai, milf, oral, paizuri, ecchi, uniform, maid, marin-kitagawa, oppai, mori-calliope, feet, succubus, school```\n\n"
+
 		   case "h":
 		   case "help":
-		   case 'menu':{ 
-			     arus.sendMessage(m.chat, { text: menu, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})
- }
-			   break
+		   case 'menu':
+                const hlp=`
+*♡ Hajimemashite ${pushname}-san, Watashiwa tokisaki kurumi dis*
+                
+ ♥ perfix ♥ :- ${prefix}
+🎋🆁🆄🅻🅴🆂 :-
+●︎ Don't call the bot
+●︎ Don't message the mods for fun
+●︎ If bot is not working then wait for bot to come online
+●︎ Respect bot bcoz you ain't pay for it 
+                
+------{If you break any rule yo will be ban}------
+                
+        *Let the date begin!!!*
+━━━『🔰General🔰』━━━
+profile, rank, exp, delete, help, creator, mods, info, groupinfo
+                
+━━━『🏮Weeb🏮』━━━
+neko, waifu, holo, fox_girl, baka, character, meme, quote, kemonomimi, manga, wallpaper, shinobu, megumin, awoo, marry, divorce, couple, coffee, ppcouple, mysoulmate
+                
+━━『❄️Group Commands❄️』━━
+ping, add, kick, promote, demote, group open/close, invite, enable/act disable/deact, antilink, events
+                
+━━━『💻Economy💻』━━━bank, daily, wallet, deposit, withdraw, deck, buy, rob, gamble, shop, leaderboard
+                
+━━━『💻Utils💻』━━━
+sticker, toimg, togif, tourl, steal, emojimix, google, image
+                
+━━━『🎵Media🎵』━━━
+yts, ytv, yta, lyrics, pinterest
+                
+━━━『💦NSFW💦』━━━
+spank, blowjob,lick, lesbian, pussy, cum, boobs, hentai-waifu, trap, hneko, ero, ass, hentai, milf, oral, paizuri, ecchi, uniform, maid, marin-kitagawa, oppai, mori-calliope, feet, succubus, school
+                
+🍁 *Modified by Aku & Powered by Arus* 🍁`
+                
+                 const AKU = [
+                    {buttonId: '.info', buttonText: {displayText: '📤 Info'}, type: 1},
+                    {buttonId: '.profile', buttonText: {displayText: '🧧 Profile'}, type: 1}
+                    ]
+                    let AKUo = {
+                        file: arus.sendMessage(m.chat,{video:fs.readFileSync('./src/assest/help.mp4'),gifPlayback:true,caption:hlp},{quoted:m}),
+                        caption: hlp,
+                        footer: 'Ari-Ani',
+                        buttons: AKU,
+                        headerType: 4
+                       }
+                break
+		case 'h1':
+"🔰 *General*\n❐ ```profile, rank, exp, delete, help, creator, mods, info, groupinfo```\n\n🏮 *Weeb*\n❐ ```neko, waifu, holo, fox_girl, baka, character, meme, quote, kemonomimi, manga, wallpaper, shinobu, megumin, awoo, marry, divorce, couple, coffee, ppcouple, mysoulmate```\n\n❄️ *Group Commands*\n❐ ```ping, add, kick, promote, demote, group open/close, invite, enable/act disable/deact, antilink, events```\n\n💻 *Economy*\n❐ ```bank, daily, wallet, deposit, withdraw, deck, buy, rob, gamble, shop, leaderboard```\n\n💻 *Utils*\n❐ ```sticker, toimg, togif, tourl, steal, emojimix, google, image```\n\n🎵 *Media*\n❐ ```yts, ytv, yta, lyrics, pinterest```\n\n💦 *NSFW*\n❐ ```spank, blowjob,lick, lesbian, pussy, cum, boobs, hentai-waifu, trap, hneko, ero, ass, hentai, milf, oral, paizuri, ecchi, uniform, maid, marin-kitagawa, oppai, mori-calliope, feet, succubus, school```\n\n"
+ arus.sendMessage(m.chat,{video:fs.readFileSync('./src/assest/help.mp4'),gifPlayback:true,caption:hlp},{quoted:m})
+
+
+break
 		   case 'session': {
 			   if (!isCreator) return m.reply("📍The user of this command must be the owner of the bot")
 			   const session = require(`./${sessionName}.json`)
@@ -273,55 +326,83 @@ break
 					 let lbtext = "*━━━━『💫LeaderBoard💫』━━━━*\n\n"
 	  for (let i = 0; i < lb.length; i++) {
 		          const levelRole = lb[i].level
-        var role = 'Warrior'
+        var role = 'Citizen'
         if (levelRole <= 2) {
-            var role = 'Elite III'
+            var role = 'Beginner'
         } else if (levelRole <= 4) {
-            var role = 'Elite II'
+            var role = 'Dan I'
         } else if (levelRole <= 6) {
-            var role = 'Elite I'
+            var role = 'Dan II'
         } else if (levelRole <= 8) {
-            var role = 'Master IV'
+            var role = 'Silver I'
         } else if (levelRole <= 10) {
-            var role = 'Master III'
+            var role = 'Silver II'
         } else if (levelRole <= 12) {
-            var role = 'Master II'
+            var role = 'Silver III'
         } else if (levelRole <= 14) {
-            var role = 'Master I'
+            var role = 'Initiate'
         } else if (levelRole <= 16) {
-            var role = 'Grandmaster V'
+            var role = 'Mentor'
         } else if (levelRole <= 18) {
-            var role = 'Grandmaster IV'
+            var role = 'Expert'
         } else if (levelRole <= 20) {
-            var role = 'Grandmaster III'
+            var role = 'Grandmaster'
         } else if (levelRole <= 22) {
-            var role = 'Grandmaster II'
+            var role = 'Brawler'
         } else if (levelRole <= 24) {
-            var role = 'Grandmaster I'
+            var role = 'Marauder'
         } else if (levelRole <= 26) {
-            var role = 'Epic V'
+            var role = 'Fighter'
         } else if (levelRole <= 28) {
-            var role = 'Epic IV'
+            var role = 'Vanguard'
         } else if (levelRole <= 30) {
-            var role = 'Epic III'
+            var role = 'Warrior'
         } else if (levelRole <= 32) {
-            var role = 'Epic II'
+            var role = 'Vindicator'
         } else if (levelRole <= 34) {
-            var role = 'Epic I'
+            var role = 'Juggernaut I'
         } else if (levelRole <= 36) {
-            var role = 'Legend V'
+            var role = 'Vanquisher'
         } else if (levelRole <= 38) {
-            var role = 'Legend IV'
+            var role = 'Hokage'
         } else if (levelRole <= 40) {
-            var role = 'Legend III'
+            var role = 'Destroyer'
         } else if (levelRole <= 42) {
-            var role = 'Legend II'
+            var role = 'Savior'
         } else if (levelRole <= 44) {
-            var role = 'Legend I'
-        } else if (levelRole <= 46) {
-            var role = 'Mythic'
-        } else if (levelRole <= 50) {
-            var role = 'Mythic Glory'
+            var role = 'Overlord'
+        }else if (levelRole <= 48) {
+            var role = 'Elite I'
+        }else if (levelRole <= 50) {
+            var role = 'Elite II'
+        }else if (levelRole <= 52) {
+            var role = 'Elite III'
+        }else if (levelRole <= 54) {
+            var role = 'Supereme'
+        }else if (levelRole <= 56) {
+            var role = 'Emperor'
+        }else if (levelRole <= 58) {
+            var role = 'Yaksa'
+        }else if (levelRole <= 60) {
+            var role = 'Ancient Vampire'
+        }else if (levelRole <= 62) {
+            var role = 'Demon Lord'
+        }else if (levelRole <= 64) {
+            var role = 'Supreme Demon Lord'
+        }else if (levelRole <= 66) {
+            var role = 'Revered Ruler'
+        }else if (levelRole <= 68) {
+            var role = 'Divine Ruler'
+        }else if (levelRole <= 70) {
+            var role = 'Eternal Ruler'
+        }else if (levelRole <= 75) {
+            var role = 'Prime'
+        }else if (levelRole <= 80) {
+            var role = 'Prime Lord'
+        }else if (levelRole <= 90) {
+            var role = 'The Prime Emperor'
+        }else if (levelRole <= 100) {
+            var role = 'The Original'
         }
 		let name = await user.findOne({ id: lb[i].userID })
     lbtext += `${i + 1}#\n*🔰Name*: ${name.name }\n*🎐Level*: ${lb[i].level}\n*🍀Exp*: ${lb[i].xp}\n*〽️Role*: ${role}\n\n`;
@@ -373,56 +454,85 @@ case 'rank':
           
 const userq = await Levels.fetch(m.sender, "bot");
 				        const levelRoleq = userq.level
-        var role = 'Warrior'
-        if (levelRoleq <= 2) {
-            var role = 'Elite III'
-        } else if (levelRoleq <= 4) {
-            var role = 'Elite II'
-        } else if (levelRoleq <= 6) {
-            var role = 'Elite I'
-        } else if (levelRoleq <= 8) {
-            var role = 'Master IV'
-        } else if (levelRoleq <= 10) {
-            var role = 'Master III'
-        } else if (levelRoleq <= 12) {
-            var role = 'Master II'
-        } else if (levelRoleq <= 14) {
-            var role = 'Master I'
-        } else if (levelRoleq <= 16) {
-            var role = 'Grandmaster V'
-        } else if (levelRoleq <= 18) {
-            var role = 'Grandmaster IV'
-        } else if (levelRoleq <= 20) {
-            var role = 'Grandmaster III'
-        } else if (levelRoleq <= 22) {
-            var role = 'Grandmaster II'
-        } else if (levelRoleq <= 24) {
-            var role = 'Grandmaster I'
-        } else if (levelRoleq <= 26) {
-            var role = 'Epic V'
-        } else if (levelRoleq <= 28) {
-            var role = 'Epic IV'
-        } else if (levelRoleq <= 30) {
-            var role = 'Epic III'
-        } else if (levelRoleq <= 32) {
-            var role = 'Epic II'
-        } else if (levelRoleq <= 34) {
-            var role = 'Epic I'
-        } else if (levelRoleq <= 36) {
-            var role = 'Legend V'
-        } else if (levelRoleq <= 38) {
-            var role = 'Legend IV'
-        } else if (levelRoleq <= 40) {
-            var role = 'Legend III'
-        } else if (levelRoleq <= 42) {
-            var role = 'Legend II'
-        } else if (levelRoleq <= 44) {
-            var role = 'Legend I'
-        } else if (levelRoleq <= 46) {
-            var role = 'Mythic'
-        } else if (levelRoleq <= 50) {
-            var role = 'Mythic Glory'
-        }
+                        var role = 'Citizen'
+                        if (levelRole <= 2) {
+                            var role = 'Beginner'
+                        } else if (levelRole <= 4) {
+                            var role = 'Dan I'
+                        } else if (levelRole <= 6) {
+                            var role = 'Dan II'
+                        } else if (levelRole <= 8) {
+                            var role = 'Silver I'
+                        } else if (levelRole <= 10) {
+                            var role = 'Silver II'
+                        } else if (levelRole <= 12) {
+                            var role = 'Silver III'
+                        } else if (levelRole <= 14) {
+                            var role = 'Initiate'
+                        } else if (levelRole <= 16) {
+                            var role = 'Mentor'
+                        } else if (levelRole <= 18) {
+                            var role = 'Expert'
+                        } else if (levelRole <= 20) {
+                            var role = 'Grandmaster'
+                        } else if (levelRole <= 22) {
+                            var role = 'Brawler'
+                        } else if (levelRole <= 24) {
+                            var role = 'Marauder'
+                        } else if (levelRole <= 26) {
+                            var role = 'Fighter'
+                        } else if (levelRole <= 28) {
+                            var role = 'Vanguard'
+                        } else if (levelRole <= 30) {
+                            var role = 'Warrior'
+                        } else if (levelRole <= 32) {
+                            var role = 'Vindicator'
+                        } else if (levelRole <= 34) {
+                            var role = 'Juggernaut I'
+                        } else if (levelRole <= 36) {
+                            var role = 'Vanquisher'
+                        } else if (levelRole <= 38) {
+                            var role = 'Hokage'
+                        } else if (levelRole <= 40) {
+                            var role = 'Destroyer'
+                        } else if (levelRole <= 42) {
+                            var role = 'Savior'
+                        } else if (levelRole <= 44) {
+                            var role = 'Overlord'
+                        }else if (levelRole <= 48) {
+                            var role = 'Elite I'
+                        }else if (levelRole <= 50) {
+                            var role = 'Elite II'
+                        }else if (levelRole <= 52) {
+                            var role = 'Elite III'
+                        }else if (levelRole <= 54) {
+                            var role = 'Supereme'
+                        }else if (levelRole <= 56) {
+                            var role = 'Emperor'
+                        }else if (levelRole <= 58) {
+                            var role = 'Yaksa'
+                        }else if (levelRole <= 60) {
+                            var role = 'Ancient Vampire'
+                        }else if (levelRole <= 62) {
+                            var role = 'Demon Lord'
+                        }else if (levelRole <= 64) {
+                            var role = 'Supreme Demon Lord'
+                        }else if (levelRole <= 66) {
+                            var role = 'Revered Ruler'
+                        }else if (levelRole <= 68) {
+                            var role = 'Divine Ruler'
+                        }else if (levelRole <= 70) {
+                            var role = 'Eternal Ruler'
+                        }else if (levelRole <= 75) {
+                            var role = 'Prime'
+                        }else if (levelRole <= 80) {
+                            var role = 'Prime Lord'
+                        }else if (levelRole <= 90) {
+                            var role = 'The Prime Emperor'
+                        }else if (levelRole <= 100) {
+                            var role = 'The Original'
+                        }
+                
 		let disc = m.sender.substring(3, 7)
 			let textr = "";
             if (pushname) {
@@ -512,57 +622,86 @@ arus.sendMessage(m.chat, {sticker: buffer}, {quoted: m})
  break
     case 'profile':
 const userw = await Levels.fetch(m.sender, "bot");
-				        const levelRole = userw.level
-        var role = 'Warrior'
-        if (levelRole <= 2) {
-            var role = 'Elite III'
-        } else if (levelRole <= 4) {
-            var role = 'Elite II'
-        } else if (levelRole <= 6) {
-            var role = 'Elite I'
-        } else if (levelRole <= 8) {
-            var role = 'Master IV'
-        } else if (levelRole <= 10) {
-            var role = 'Master III'
-        } else if (levelRole <= 12) {
-            var role = 'Master II'
-        } else if (levelRole <= 14) {
-            var role = 'Master I'
-        } else if (levelRole <= 16) {
-            var role = 'Grandmaster V'
-        } else if (levelRole <= 18) {
-            var role = 'Grandmaster IV'
-        } else if (levelRole <= 20) {
-            var role = 'Grandmaster III'
-        } else if (levelRole <= 22) {
-            var role = 'Grandmaster II'
-        } else if (levelRole <= 24) {
-            var role = 'Grandmaster I'
-        } else if (levelRole <= 26) {
-            var role = 'Epic V'
-        } else if (levelRole <= 28) {
-            var role = 'Epic IV'
-        } else if (levelRole <= 30) {
-            var role = 'Epic III'
-        } else if (levelRole <= 32) {
-            var role = 'Epic II'
-        } else if (levelRole <= 34) {
-            var role = 'Epic I'
-        } else if (levelRole <= 36) {
-            var role = 'Legend V'
-        } else if (levelRole <= 38) {
-            var role = 'Legend IV'
-        } else if (levelRole <= 40) {
-            var role = 'Legend III'
-        } else if (levelRole <= 42) {
-            var role = 'Legend II'
-        } else if (levelRole <= 44) {
-            var role = 'Legend I'
-        } else if (levelRole <= 46) {
-            var role = 'Mythic'
-        } else if (levelRole <= 50) {
-            var role = 'Mythic Glory'
-        }
+            const levelRole = userw.level
+var role = 'Citizen'
+if (levelRole <= 2) {
+    var role = 'Beginner'
+} else if (levelRole <= 4) {
+    var role = 'Dan I'
+} else if (levelRole <= 6) {
+    var role = 'Dan II'
+} else if (levelRole <= 8) {
+    var role = 'Silver I'
+} else if (levelRole <= 10) {
+    var role = 'Silver II'
+} else if (levelRole <= 12) {
+    var role = 'Silver III'
+} else if (levelRole <= 14) {
+    var role = 'Initiate'
+} else if (levelRole <= 16) {
+    var role = 'Mentor'
+} else if (levelRole <= 18) {
+    var role = 'Expert'
+} else if (levelRole <= 20) {
+    var role = 'Grandmaster'
+} else if (levelRole <= 22) {
+    var role = 'Brawler'
+} else if (levelRole <= 24) {
+    var role = 'Marauder'
+} else if (levelRole <= 26) {
+    var role = 'Fighter'
+} else if (levelRole <= 28) {
+    var role = 'Vanguard'
+} else if (levelRole <= 30) {
+    var role = 'Warrior'
+} else if (levelRole <= 32) {
+    var role = 'Vindicator'
+} else if (levelRole <= 34) {
+    var role = 'Juggernaut I'
+} else if (levelRole <= 36) {
+    var role = 'Vanquisher'
+} else if (levelRole <= 38) {
+    var role = 'Hokage'
+} else if (levelRole <= 40) {
+    var role = 'Destroyer'
+} else if (levelRole <= 42) {
+    var role = 'Savior'
+} else if (levelRole <= 44) {
+    var role = 'Overlord'
+}else if (levelRole <= 48) {
+    var role = 'Elite I'
+}else if (levelRole <= 50) {
+    var role = 'Elite II'
+}else if (levelRole <= 52) {
+    var role = 'Elite III'
+}else if (levelRole <= 54) {
+    var role = 'Supereme'
+}else if (levelRole <= 56) {
+    var role = 'Emperor'
+}else if (levelRole <= 58) {
+    var role = 'Yaksa'
+}else if (levelRole <= 60) {
+    var role = 'Ancient Vampire'
+}else if (levelRole <= 62) {
+    var role = 'Demon Lord'
+}else if (levelRole <= 64) {
+    var role = 'Supreme Demon Lord'
+}else if (levelRole <= 66) {
+    var role = 'Revered Ruler'
+}else if (levelRole <= 68) {
+    var role = 'Divine Ruler'
+}else if (levelRole <= 70) {
+    var role = 'Eternal Ruler'
+}else if (levelRole <= 75) {
+    var role = 'Prime'
+}else if (levelRole <= 80) {
+    var role = 'Prime Lord'
+}else if (levelRole <= 90) {
+    var role = 'The Prime Emperor'
+}else if (levelRole <= 100) {
+    var role = 'The Original'
+}
+
 		let bio = ''
 try {
 bio = (await arus.fetchStatus(m.sender)).status
@@ -610,7 +749,7 @@ break
                     fs.unlinkSync(media)
                     if (err) m.reply(err)
                     let buffer = fs.readFileSync(ran)
-                    arus.sendMessage(m.chat, { image: buffer,caption:'©MIZUHARA-2022' }, { quoted: m })
+                    arus.sendMessage(m.chat, { image: buffer,caption:'©Ari-Ani' }, { quoted: m })
                     fs.unlinkSync(ran)
                 })
 	  } else if (m.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.isAnimated == true){
@@ -620,7 +759,7 @@ break
         let { webp2mp4File } = require('./lib/uploader')
                 let media = await arus.downloadAndSaveMediaMessage(quoted)
                 let webpToMp4 = await webp2mp4File(media)
-                await arus.sendMessage(m.chat, { video: { url: webpToMp4.result, caption: '©MIZUHARA-2022' }, gifPlayback: true }, { quoted: m })
+                await arus.sendMessage(m.chat, { video: { url: webpToMp4.result, caption: '©Ari-Ani' }, gifPlayback: true }, { quoted: m })
                 await fs.unlinkSync(media)
 	  }
 
@@ -774,7 +913,7 @@ if (!isBotAdmins) return m.reply("❌ Cannot execute without being admin")
 ]
 const listMessage = {
   text: "Choose the required setting",
-  footer: "@ARUS",
+  footer: "@AKU",
   title: "",
   buttonText: "settings",
   sections
