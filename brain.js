@@ -176,7 +176,7 @@ case '':
 ]
 let buttonMessaged = {
         text: `Konichiwa *${pushname}-san*\nWatashi Tokisaki Kurumi.\nUse ${prefix}help to use me😏`,
-        footer: '@AKU',
+        footer: '@Arus',
         buttons: dbut,
         headerType: 4
     }
@@ -217,7 +217,7 @@ let ter = `🧧 *Commands*: 55\n🔧 *Users*: ${tr}\n💚 *Groups*: ${ur}\n🚫 
 console.log(ter)
    let buttonMessaged = {
         text: ter,
-        footer: '@AKU',
+        footer: '©Arus',
         buttons: dbut,
         headerType: 4
     }
@@ -246,18 +246,10 @@ break
 		   case "help":
 		   case 'menu':
                 const hlp=`
-*♡ Hajimemashite ${pushname}-san, Watashiwa tokisaki kurumi dis*
+*Kon'nichiwa ${pushname}-darling, Watashiwa ZeroTwo dis*
                 
  ♥ perfix ♥ :- ${prefix}
-🎋🆁🆄🅻🅴🆂 :-
-●︎ Don't call the bot
-●︎ Don't message the mods for fun
-●︎ If bot is not working then wait for bot to come online
-●︎ Respect bot bcoz you ain't pay for it 
-                
-------{If you break any rule yo will be ban}------
-                
-        *Let the date begin!!!*
+
 ━━━『🔰General🔰』━━━
 profile, rank, exp, delete, help, creator, mods, info, groupinfo
                 
@@ -266,8 +258,6 @@ neko, waifu, holo, fox_girl, baka, character, meme, quote, kemonomimi, manga, wa
                 
 ━━『❄️Group Commands❄️』━━
 ping, add, kick, promote, demote, group open/close, invite, enable/act disable/deact, antilink, events
-                
-━━━『💻Economy💻』━━━bank, daily, wallet, deposit, withdraw, deck, buy, rob, gamble, shop, leaderboard
                 
 ━━━『💻Utils💻』━━━
 sticker, toimg, togif, tourl, steal, emojimix, google, image
@@ -280,21 +270,21 @@ spank, blowjob,lick, lesbian, pussy, cum, boobs, hentai-waifu, trap, hneko, ero,
                 
 🍁 *Modified by Aku & Powered by Arus* 🍁`
                 
-                 const AKU = [
+                 let hbutto = [
                     {buttonId: '.info', buttonText: {displayText: '📤 Info'}, type: 1},
                     {buttonId: '.profile', buttonText: {displayText: '🧧 Profile'}, type: 1}
                     ]
-                    let AKUo = {
-                        file: arus.sendMessage(m.chat,{video:fs.readFileSync('./src/assest/help.mp4'),gifPlayback:true,caption:hlp},{quoted:m}),
+                    let hbutto = {
+                        file: arus.sendMessage(m.chat,{video:fs.readFileSync('./src/help.mp4'),gifPlayback:true,caption:hlp},{quoted:m}),
                         caption: hlp,
                         footer: 'Ari-Ani',
-                        buttons: AKU,
+                        buttons: hbutto,
                         headerType: 4
                        }
                 break
 		case 'h1':
 "🔰 *General*\n❐ ```profile, rank, exp, delete, help, creator, mods, info, groupinfo```\n\n🏮 *Weeb*\n❐ ```neko, waifu, holo, fox_girl, baka, character, meme, quote, kemonomimi, manga, wallpaper, shinobu, megumin, awoo, marry, divorce, couple, coffee, ppcouple, mysoulmate```\n\n❄️ *Group Commands*\n❐ ```ping, add, kick, promote, demote, group open/close, invite, enable/act disable/deact, antilink, events```\n\n💻 *Economy*\n❐ ```bank, daily, wallet, deposit, withdraw, deck, buy, rob, gamble, shop, leaderboard```\n\n💻 *Utils*\n❐ ```sticker, toimg, togif, tourl, steal, emojimix, google, image```\n\n🎵 *Media*\n❐ ```yts, ytv, yta, lyrics, pinterest```\n\n💦 *NSFW*\n❐ ```spank, blowjob,lick, lesbian, pussy, cum, boobs, hentai-waifu, trap, hneko, ero, ass, hentai, milf, oral, paizuri, ecchi, uniform, maid, marin-kitagawa, oppai, mori-calliope, feet, succubus, school```\n\n"
- arus.sendMessage(m.chat,{video:fs.readFileSync('./src/assest/help.mp4'),gifPlayback:true,caption:hlp},{quoted:m})
+ arus.sendMessage(m.chat,{video:fs.readFileSync('./src/help.mp4'),gifPlayback:true,caption:hlp},{quoted:m})
 
 
 break
