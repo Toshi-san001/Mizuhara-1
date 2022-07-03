@@ -175,7 +175,7 @@ case '':
 {buttonId: '${prefix}mods', buttonText: {displayText: '🎐Bot status'}, type: 1}
 ]
 let buttonMessaged = {
-        image: {url:"https://telegra.ph/file/645707c1698c8a9515953.jpg"},
+        file: {url:"https://telegra.ph/file/2784b7eca3aabea3addf6.mp4"},
         caption: `*DID YOU MEAN ${prefix}help ?*`,
         footer: '©Arus 2022',
         buttons: dbut,
@@ -252,25 +252,25 @@ break
 ⭐ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 ⭐
 
 ━━『🍁Dev🍁』━━
-❐ update,broadcast,ban,unban,chatid,session,join
+❐ update, broadcast, ban, unban, chatid, session, join
 
 ━━『🔰General🔰』━━
-❐ help,delete,info,rank,profile
+❐ help, delete, info, rank, profile
 
 ━━『🎋Fun🎋』━━
-❐ ship,advice,quote,leaderboard,react,fact,bot
+❐ ship, advice, quote, leaderboard, react, fact, bot
 
 ━━『◀️Media◀️』━━
-❐ yta,ytv,play,gify,yts,lyrics
+❐ yta, ytv, play, gify, yts, lyrics
 
 ━━『⚡Moderation⚡』━━
-❐ demote,remove,ping,promote,deact,act,invite,group,seticon,setdesc
+❐ demote, remove, ping, promote, deact, act, invite, group, seticon, setdesc
 
 ━━『🧧Weeb🧧』━━
-❐ anime,manga,charecter,haigusha,neko,waifu,pokemon
+❐ anime, manga, charecter, haigusha, neko, waifu, pokemon
 
 ━━『💻Utils💻』━━
-❐ google,image,meme,subreddit,tourl,img,iguser,gif,sticker,take,pinterest,carbon
+❐ google, image, meme, subreddit, tourl, img, iguser, gif, sticker, take, pinterest, carbon
 
  シ︎ 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 シ︎`			     
 const hhbut = [
