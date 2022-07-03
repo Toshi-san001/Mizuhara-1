@@ -171,8 +171,8 @@ case '':
 
 
     const dbut = [
-{buttonId: '${prefix}help', buttonText: {displayText: '🚀commands'}, type: 1},
-{buttonId: '${prefix}info', buttonText: {displayText: '🎐Bot status'}, type: 1}
+{buttonId: `${prefix}help`, buttonText: {displayText: '🚀Commands'}, type: 1}
+{buttonId: `${prefix}info`, buttonText: {displayText: '🎐Bot status'}, type: 1}
 ]
 let buttonMessaged = {
         image: {url:"https://telegra.ph/file/5701d54c0e3e6f51aa161.jpg"},
@@ -243,33 +243,37 @@ break
 		   case "help":
                    case 'menu':
                    const hlp=`
-*(◍•ᴗ•◍)❤ Kon'nichiwa 👋🏻 ${pushname} Darling I'm Mizuhara*
+*❤️(◍•ᴗ•◍)❤ Kon'nichiwa 👋🏻 ${pushname} Darling I'm Mizuhara*
 
 📝Note: if Bot did not responding then it's offline or owner internet issue so please wait until Bot comes online.!
 
+👤User - ${pushname}
+🚀Role - ${role}
+🍀Xp - ${lb[i].xp}
+🧧Level - ${lb[i].level}
 🎐My Prefix is - ${prefix}
 
 ⭐ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 ⭐
 
-━━『🍁Dev🍁』━━
+━━『 Dev 』━━
 ❐ update, broadcast, ban, unban, chatid, join
 
-━━『🔰General🔰』━━
+━━『 General 』━━
 ❐ help, delete, info, rank, profile
 
-━━『🎋Fun🎋』━━
+━━『 Fun 』━━
 ❐ ship, advice, quote, leaderboard, react, fact, bot
 
-━━『◀️Media◀️』━━
+━━『 Media 』━━
 ❐ yta, ytv, play, gify, yts, lyrics
 
-━━『⚡Moderation⚡』━━
+━━『 Moderation 』━━
 ❐ demote, remove, ping, promote, deact, act, invite, group, seticon, setdesc
 
-━━『🧧Weeb🧧』━━
+━━『 Weeb 』━━
 ❐ anime, manga, charecter, haigusha, neko, waifu, pokemon
 
-━━『💻Utils💻』━━
+━━『 Utils 』━━
 ❐ google, image, meme, subreddit, tourl, img, iguser, gif, sticker, take, pinterest, carbon
 
  🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`			     
