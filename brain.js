@@ -249,7 +249,7 @@ break
 
 📪 My all usable commands are listed below 📪 
 
-━━━━『🍁Dev🍁』━━━━
+━━『🍁Dev🍁』━━
 🍁update
 🍁broadcast
 🍁ban
@@ -257,13 +257,13 @@ break
 🍁chatid
 🍁session
 🍁join
-━━━━『🔰General🔰』━━━━
+━━『🔰General🔰』━━
 🔰help
 🔰delete
 🔰info
 🔰rank
 🔰profile
-━━━━『🎋Fun🎋』━━━━
+━━『🎋Fun🎋』━━
 🎋ship
 🎋advice
 🎋quote
@@ -271,14 +271,14 @@ break
 🎋react
 🎋fact
 🎋bot
-━━━━『◀️Media◀️』━━━━
+━━『◀️Media◀️』━━
 ◀️yta
 ◀️ytv
 ◀️play
 ◀️gify
 ◀️yts
 ◀️lyrics
-━━━━『⚡Moderation⚡』━━━━
+━━『⚡Moderation⚡』━━
 ⚡demote
 ⚡remove
 ⚡ping
@@ -289,7 +289,7 @@ break
 ⚡group
 ⚡seticon
 ⚡setdesc
-━━━━『🧧Weeb🧧』━━━━
+━━『🧧Weeb🧧』━━
 🧧anime
 🧧manga
 🧧charecter
@@ -297,7 +297,7 @@ break
 🧧neko
 🧧waifu
 🧧pokemon
-━━━━『💻Utils💻』━━━━
+━━『💻Utils💻』━━
 💻google
 💻image
 💻meme
@@ -313,11 +313,11 @@ break
 
  🍁Powered by Arus modified by Toshiro🍁`			     
 const hhbut = [
-{buttonId: '=info', buttonText: {displayText: '📤 Info'}, type: 1},
-{buttonId: '=profile', buttonText: {displayText: '🧧 Profile'}, type: 1}
+{buttonId: '=info', buttonText: {displayText: ' Info'}, type: 1},
+{buttonId: '=profile', buttonText: {displayText: ' Profile'}, type: 1}
 ]
 let hbutto = {
-        image: {url:"https://telegra.ph/file/9e58cb8f7cb23d7e7f94d.jpg"},
+        file: arus.sendMessage(m.chat,{video:fs.readFileSync('./src/help.mp4'),gifPlayback:true,caption:hlp},{quoted:m}),
         caption: hlp,
         footer: '©Arus 2022',
         buttons: hhbut,
