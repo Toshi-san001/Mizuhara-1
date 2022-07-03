@@ -240,8 +240,7 @@ console.log(err)
 }
 break
 		   case "h":
-		   case "help":
-		   case 'menu':
+		   case "help"
                    const hlp=`
 *❤️(◍•ᴗ•◍)❤ Kon'nichiwa 👋🏻 {pushname} Darling I'm Mizuhara*
 
