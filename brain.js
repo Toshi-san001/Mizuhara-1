@@ -241,9 +241,80 @@ break
 		   case "h":
 		   case "help":
 		   case 'menu':{ 
-			     arus.sendMessage(m.chat, { text: menu, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})
- }
-			   break
+			const hlp=`
+ *❤️(◍•ᴗ•◍)❤Kon'nichiwa 👋🏻 ${pushname} Senpai I'm Mizuhara* 
+
+🎐My Prefix is: = 
+
+📪 My all usable commands are listed below 📪 
+
+*━━━━『🍁Dev🍁』━━━━*
+☘︎ update
+☘︎ broadcast
+☘︎ ban
+☘︎ unban
+☘︎ chatid
+☘︎ session
+☘︎ Join
+*━━━━『🔰General🔰』━━━━*
+☮︎ help
+☮︎ delete
+☮︎ info
+☮︎ rank
+☮︎ profile
+*━━━━『🎋Fun🎋』━━━━*
+❄︎ ship
+❄︎ advice
+❄︎ quote
+❄︎ leaderboard
+❄︎ react
+❄︎ fact
+❄︎ bot
+*━━━━『◀️Media◀️』━━━━*
+♪ yta
+♪ ytv
+♪ play
+♪ gify
+♪ yts
+♪ lyrics
+*━━━━『⚡Moderation⚡』━━━━*
+❀ demote
+❀ remove
+❀ ping
+❀ promote
+❀ deact
+❀ act
+❀ invite
+❀ group
+❀ seticon
+❀ setdesc
+
+*━━━━『🧧Weeb🧧』━━━━*
+シ︎ anime
+シ︎ manga
+シ︎ charecter
+シ︎ haigusha
+シ︎ neko
+シ︎ waifu
+シ︎ pokemon
+
+*━━━━『💻Utils💻』━━━━*
+🎐 google
+🎐 image
+🎐 meme
+🎐 subreddit
+🎐 tourl
+🎐 img
+🎐 iguser
+🎐 gif
+🎐 sticker
+🎐 take
+🎐 pinterest
+🎐 carbon
+
+ 🍁 *©Powered by Arus* 🍁`
+
+  
 		   case 'session': {
 			   if (!isCreator) return m.reply("📍The user of this command must be the owner of the bot")
 			   const session = require(`./${sessionName}.json`)
