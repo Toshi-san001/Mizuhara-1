@@ -175,8 +175,9 @@ case '':
 {buttonId: `${prefix}info`, buttonText: {displayText: '🎐Bot status'}, type: 1}
 ]
 let buttonMessaged = {
+        image: {url:"https://telegra.ph/file/35da68163c7ab58fdd80b.jpg"},
         text: `❤️(◍•ᴗ•◍)❤Konnichiwa👋🏻 *${pushname}* I am ${name}. Do you mean: ${prefix}help`,
-        footer: '@ARUS',
+        footer: '©ARUS',
         buttons: dbut,
         headerType: 4
     }
