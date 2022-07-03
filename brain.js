@@ -172,7 +172,7 @@ case '':
 
     const dbut = [
 {buttonId: '${prefix}help', buttonText: {displayText: '🚀commands'}, type: 1},
-{buttonId: '${prefix}mods', buttonText: {displayText: '🎐Bot status'}, type: 1}
+{buttonId: '${prefix}info', buttonText: {displayText: '🎐Bot status'}, type: 1}
 ]
 let buttonMessaged = {
         file: {url:"https://telegra.ph/file/2784b7eca3aabea3addf6.mp4"},
