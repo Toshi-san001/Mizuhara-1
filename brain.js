@@ -243,7 +243,7 @@ break
 		   case "help":
 		   case 'menu':
                    const hlp=`
-🏮 *❤️(◍•ᴗ•◍)❤ Kon'nichiwa {pushname} Darling I'm Mizuhara* 🏮
+*❤️(◍•ᴗ•◍)❤ Kon'nichiwa 👋🏻 {pushname} Darling I'm Mizuhara*
 
 🎐My Prefix is: {Prefix}
 
