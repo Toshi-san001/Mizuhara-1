@@ -248,7 +248,7 @@ break
 
 📪 My all usable commands are listed below 📪 
 
-*━━━━『🍁Dev🍁』━━━━*
+━━━━『🍁Dev🍁』━━━━
 🍁update
 🍁broadcast
 🍁ban
@@ -256,13 +256,13 @@ break
 🍁chatid
 🍁session
 🍁join
-*━━━━『🔰General🔰』━━━━*
+━━━━『🔰General🔰』━━━━
 🔰help
 🔰delete
 🔰info
 🔰rank
 🔰profile
-*━━━━『🎋Fun🎋』━━━━*
+━━━━『🎋Fun🎋』━━━━
 🎋ship
 🎋advice
 🎋quote
@@ -270,14 +270,14 @@ break
 🎋react
 🎋fact
 🎋bot
-*━━━━『◀️Media◀️』━━━━*
+━━━━『◀️Media◀️』━━━━
 ◀️yta
 ◀️ytv
 ◀️play
 ◀️gify
 ◀️yts
 ◀️lyrics
-*━━━━『⚡Moderation⚡』━━━━*
+━━━━『⚡Moderation⚡』━━━━
 ⚡demote
 ⚡remove
 ⚡ping
@@ -288,7 +288,7 @@ break
 ⚡group
 ⚡seticon
 ⚡setdesc
-*━━━━『🧧Weeb🧧』━━━━*
+━━━━『🧧Weeb🧧』━━━━
 🧧anime
 🧧manga
 🧧charecter
@@ -296,7 +296,7 @@ break
 🧧neko
 🧧waifu
 🧧pokemon
-*━━━━『💻Utils💻』━━━━*
+━━━━『💻Utils💻』━━━━
 💻google
 💻image
 💻meme
@@ -310,7 +310,7 @@ break
 💻pinterest
 💻carbon
 
- *🕊️ 𝙏𝙝𝙚 𝘽𝙚𝙨𝙩 𝙞𝙨 𝙔𝙚𝙩 𝙩𝙤 𝘽𝙚 価*`			     
+ 🕊️ 𝙏𝙝𝙚 𝘽𝙚𝙨𝙩 𝙞𝙨 𝙔𝙚𝙩 𝙩𝙤 𝘽𝙚 価`			     
 
 			   break
 		   case 'session': {
