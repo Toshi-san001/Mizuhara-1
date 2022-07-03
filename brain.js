@@ -175,7 +175,7 @@ case '':
 {buttonId: `${prefix}info`, buttonText: {displayText: '🎐Bot status'}, type: 1}
 ]
 let buttonMessaged = {
-        text: `Konnichiwa👋🏻 *${pushname}* I am ${name}. Do you mean: ${prefix}help`,
+        text: `❤️(◍•ᴗ•◍)❤Konnichiwa👋🏻 *${pushname}* I am ${name}. Do you mean: ${prefix}help`,
         footer: '@ARUS',
         buttons: dbut,
         headerType: 4
