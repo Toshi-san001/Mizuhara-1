@@ -241,9 +241,90 @@ console.log(err)
 break
 		   case "h":
 		   case "help":
-		   case 'menu':{ 
-			     arus.sendMessage(m.chat, { text: menu, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})
- }
+                   case 'menu':
+                   const hlp=`
+*❤️(◍•ᴗ•◍)❤ Kon'nichiwa 👋🏻 ${pushname} Darling I'm Mizuhara*
+
+🎐My Prefix is - ${prefix}
+
+📪 My all usable commands are listed below 📪 
+
+━━━━『🍁Dev🍁』━━━━
+🍁update
+🍁broadcast
+🍁ban
+🍁unban
+🍁chatid
+🍁session
+🍁join
+━━━━『🔰General🔰』━━━━
+🔰help
+🔰delete
+🔰info
+🔰rank
+🔰profile
+━━━━『🎋Fun🎋』━━━━
+🎋ship
+🎋advice
+🎋quote
+🎋leaderboard
+🎋react
+🎋fact
+🎋bot
+━━━━『◀️Media◀️』━━━━
+◀️yta
+◀️ytv
+◀️play
+◀️gify
+◀️yts
+◀️lyrics
+━━━━『⚡Moderation⚡』━━━━
+⚡demote
+⚡remove
+⚡ping
+⚡promote
+⚡deact
+⚡act
+⚡invite
+⚡group
+⚡seticon
+⚡setdesc
+━━━━『🧧Weeb🧧』━━━━
+🧧anime
+🧧manga
+🧧charecter
+🧧haigusha
+🧧neko
+🧧waifu
+🧧pokemon
+━━━━『💻Utils💻』━━━━
+💻google
+💻image
+💻meme
+💻subreddit
+💻tourl
+💻img
+💻iguser
+💻gif
+💻sticker
+💻take
+💻pinterest
+💻carbon
+
+ 🍁Powered by Arus modified by Toshiro🍁`			     
+const hhbut = [
+{buttonId: '=info', buttonText: {displayText: '📤 Info'}, type: 1},
+{buttonId: '=profile', buttonText: {displayText: '🧧 Profile'}, type: 1}
+]
+let hbutto = {
+        image: {url:"https://telegra.ph/file/9e58cb8f7cb23d7e7f94d.jpg"},
+        caption: hlp,
+        footer: '©Arus 2022',
+        buttons: hhbut,
+        headerType: 4
+    }
+arus.sendMessage(m.chat,hbutto,{quoted:m})
+
 			   break
 		   case 'session': {
 			   if (!isCreator) return m.reply("📍The user of this command must be the owner of the bot")
