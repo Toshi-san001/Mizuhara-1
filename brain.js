@@ -247,11 +247,7 @@ break
 
 📝Note: if Bot did not responding then it's offline or owner internet issue so please wait until Bot comes online.!
 
-👤User - ${pushname}
-🚀Role - ${role}
-🍀Xp - ${lb[i].xp}
-🧧Level - ${lb[i].level}
-🎐My Prefix is - ${prefix}
+🎐My Prefix is:- ${prefix}
 
 ⭐ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 ⭐
 
