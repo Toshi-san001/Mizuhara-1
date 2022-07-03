@@ -171,8 +171,8 @@ case '':
 
 
     const dbut = [
-{buttonId: '${prefix}help', buttonText: {displayText: 'Help'}, type: 1},
-{buttonId: '${prefix}mods', buttonText: {displayText: 'Bot status'}, type: 1}
+{buttonId: '${prefix}help', buttonText: {displayText: '🚀commands'}, type: 1},
+{buttonId: '${prefix}mods', buttonText: {displayText: '🎐Bot status'}, type: 1}
 ]
 let buttonMessaged = {
         image: {url:"https://telegra.ph/file/645707c1698c8a9515953.jpg"},
@@ -243,76 +243,36 @@ break
 		   case "help":
                    case 'menu':
                    const hlp=`
-arus.sendMessage(m.chat, { text: menu, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})
-*❤️(◍•ᴗ•◍)❤ Kon'nichiwa 👋🏻 ${pushname} Darling I'm Mizuhara*
+*(◍•ᴗ•◍)❤ Kon'nichiwa 👋🏻 ${pushname} Darling I'm Mizuhara*
+
+📝Note: if Bot did not responding then it's offline or owner internet issue so please wait until Bot comes online.!
 
 🎐My Prefix is - ${prefix}
 
-📪 My all usable commands are listed below 📪 
+⭐ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 ⭐
 
 ━━『🍁Dev🍁』━━
-🍁update
-🍁broadcast
-🍁ban
-🍁unban
-🍁chatid
-🍁session
-🍁join
-━━『🔰General🔰』━━
-🔰help
-🔰delete
-🔰info
-🔰rank
-🔰profile
-━━『🎋Fun🎋』━━
-🎋ship
-🎋advice
-🎋quote
-🎋leaderboard
-🎋react
-🎋fact
-🎋bot
-━━『◀️Media◀️』━━
-◀️yta
-◀️ytv
-◀️play
-◀️gify
-◀️yts
-◀️lyrics
-━━『⚡Moderation⚡』━━
-⚡demote
-⚡remove
-⚡ping
-⚡promote
-⚡deact
-⚡act
-⚡invite
-⚡group
-⚡seticon
-⚡setdesc
-━━『🧧Weeb🧧』━━
-🧧anime
-🧧manga
-🧧charecter
-🧧haigusha
-🧧neko
-🧧waifu
-🧧pokemon
-━━『💻Utils💻』━━
-💻google
-💻image
-💻meme
-💻subreddit
-💻tourl
-💻img
-💻iguser
-💻gif
-💻sticker
-💻take
-💻pinterest
-💻carbon
+❐ update,broadcast,ban,unban,chatid,session,join
 
- 🍁Powered by Arus modified by Toshiro🍁`			     
+━━『🔰General🔰』━━
+❐ help,delete,info,rank,profile
+
+━━『🎋Fun🎋』━━
+❐ ship,advice,quote,leaderboard,react,fact,bot
+
+━━『◀️Media◀️』━━
+❐ yta,ytv,play,gify,yts,lyrics
+
+━━『⚡Moderation⚡』━━
+❐ demote,remove,ping,promote,deact,act,invite,group,seticon,setdesc
+
+━━『🧧Weeb🧧』━━
+❐ anime,manga,charecter,haigusha,neko,waifu,pokemon
+
+━━『💻Utils💻』━━
+❐ google,image,meme,subreddit,tourl,img,iguser,gif,sticker,take,pinterest,carbon
+
+ シ︎ 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 シ︎`			     
 const hhbut = [
 {buttonId: '=info', buttonText: {displayText: ' Info'}, type: 1},
 {buttonId: '=profile', buttonText: {displayText: ' Profile'}, type: 1}
