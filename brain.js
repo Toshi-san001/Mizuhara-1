@@ -242,9 +242,9 @@ break
 		   case "h":
 		   case "help":
                    const hlp=`
-*❤️(◍•ᴗ•◍)❤ Kon'nichiwa 👋🏻 {pushname} Darling I'm Mizuhara*
+*❤️(◍•ᴗ•◍)❤ Kon'nichiwa 👋🏻 ${pushname} Darling I'm Mizuhara*
 
-🎐My Prefix is: {Prefix}
+🎐My Prefix is: ${Prefix}
 
 📪 My all usable commands are listed below 📪 
 
@@ -310,7 +310,7 @@ break
 💻pinterest
 💻carbon
 
- 🕊️ 𝙏𝙝𝙚 𝘽𝙚𝙨𝙩 𝙞𝙨 𝙔𝙚𝙩 𝙩𝙤 𝘽𝙚 価 `			     
+ 🕊️ 𝙏𝙝𝙚 𝘽𝙚𝙨𝙩 𝙞𝙨 𝙔𝙚𝙩 𝙩𝙤 𝘽𝙚 価`			     
 
 			   break
 		   case 'session': {
