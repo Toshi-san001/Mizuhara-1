@@ -241,6 +241,7 @@ console.log(err)
 break
 		   case "h":
 		   case "help":
+                   case 'menu':{
                    const hlp=`
 *❤️(◍•ᴗ•◍)❤ Kon'nichiwa 👋🏻 ${pushname} Darling I'm Mizuhara*
 
@@ -311,7 +312,7 @@ break
 💻carbon
 
  🕊️ 𝙏𝙝𝙚 𝘽𝙚𝙨𝙩 𝙞𝙨 𝙔𝙚𝙩 𝙩𝙤 𝘽𝙚 価`			     
-
+}
 			   break
 		   case 'session': {
 			   if (!isCreator) return m.reply("📍The user of this command must be the owner of the bot")
