@@ -244,7 +244,7 @@ break
 			const hlp=`
  *❤️(◍•ᴗ•◍)❤Kon'nichiwa 👋🏻 ${pushname} Senpai I'm Mizuhara* 
 
-🎐My Prefix is: = 
+🎐My Prefix is: ${prefix}
 
 📪 My all usable commands are listed below 📪 
 
