@@ -1763,7 +1763,7 @@ break
                 for (let i of anu) {
                     //await sleep(1500)
 
-  let txt = `🔰</ _*Arus Broadcast*_ >🔰\n\n🍀 *Author:* ${pushname}\n\n🔖 *Message:* ${bct}`
+  let txt = `🔰</ _*Arus Broadcast*_ >🔰\n\n🍀 *Author:* ${pushname}\n\n🏮 *Message:* ${bct}`
 //const stick=fs.readFileSync(`./src/right.webp`)
 //await arus.sendMessage(m.chat,{sticker:stick},{quoted:m})
 await arus.sendMessage(i, { video: { url: "https://telegra.ph/file/3c3f94c8463e7f9c29d73.mp4" }, mimetype: 'video/mp4', fileName: `bc.mp4`, caption: `${txt}` })
