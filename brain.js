@@ -248,7 +248,6 @@ break
 📝Note: if Bot did not responding then it's offline or owner internet issue so please wait until Bot comes online.!
 
 🎐My Prefix is:- ${prefix}
-🎊Xp:- ${lb[i].xp}
 
 ⭐ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 ⭐
 
