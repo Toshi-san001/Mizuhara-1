@@ -252,19 +252,19 @@ break
 ⭐ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 ⭐
 
 ━━━━『 Dev 』━━━━
-🧧 update, broadcast, ban, unban, chatid, join
+❐ ```update, broadcast, ban, unban, chatid, join```
 ━━━━『 General 』━━━━
-🧧 help, delete, info, rank, profile
+❐ ```help, delete, info, rank, profile```
 ━━━━『 Fun 』━━━━
-🧧 ship, advice, quote, leaderboard, react, fact, bot
+❐ ```ship, advice, quote, leaderboard, react, fact, bot```
 ━━━━『 Media 』━━━━
-🧧 yta, ytv, play, gify, yts, lyrics
+❐ ```yta, ytv, play, gify, yts, lyrics```
 ━━━━『 Moderation 』━━━━
-🧧 demote, remove, ping, promote, deact, act, invite, group, seticon, setdesc
+❐ ```demote, remove, ping, promote, deact, act, invite, group, seticon, setdesc```
 ━━━━『 Weeb 』━━━━
-🧧 anime, manga, charecter, haigusha, neko, waifu, pokemon
+❐ ```anime, manga, charecter, haigusha, neko, waifu, pokemon```
 ━━━━『 Utils 』━━━━
-🧧 google, image, meme, subreddit, tourl, img, iguser, gif, sticker, take, pinterest, carbon
+❐```google, image, meme, subreddit, tourl, img, iguser, gif, sticker, take, pinterest, carbon```
 
  🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`			     
 const hhbut = [
