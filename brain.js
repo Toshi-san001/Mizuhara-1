@@ -243,7 +243,6 @@ break
 		   case "help":
                    case 'menu':
                    const hlp=`
-arus.sendMessage(m.chat, { text: menu, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})
 *(❤️ω❤️)Kon'nichiwa 👋🏻 watashiwa ${pushname} Darling I'm Mizuhara*
 
 📝Note: if Bot did not responding then it's offline or owner internet issue so please wait until Bot comes online.!
@@ -375,7 +374,7 @@ arus.sendMessage(m.chat,hbutto,{quoted:m})
 break
 case "help":
 case 'menu':{
-	
+arus.sendMessage(m.chat, { text: menu, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})	
 	
 }
 break
