@@ -251,40 +251,27 @@ break
 
 ⭐ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 ⭐
 ━━━━━━━━━━━━━━━━━━
-━━━━『 Dev 』━━━
-  🍁Dev section🍁
-
+━━━━『 Dev 』━━━━
 🎐 update, broadcast, ban, unban, chatid, join
 
-━━━━『 General 』━━━
-  🍁General section🍁
-
+━━━━『 General 』━━━━
 🎐 help, delete, info, rank, profile
 
-━━━━『 Fun 』━━━
-  🍁Fun section🍁
-
+━━━━『 Fun 』━━━━
 🎐 ship, advice, quote, leaderboard, react, fact, bot
 
-━━━━『 Media 』━━━
-  🍁Media section🍁
-
+━━━━『 Media 』━━━━
 🎐 yta, ytv, play, gify, yts, lyrics
 
-━━━━『 Moderation 』━━━
-  🍁Moderation section🍁
-
+━━━━『 Moderation 』━━━━
 🎐 demote, remove, ping, promote, deact, act, invite, group, seticon, setdesc
 
 ━━━━『 Weeb 』━━━━
-  🍁Weeb section 🍁
-
 🎐 anime, manga, charecter, haigusha, neko, waifu, pokemon
 
-━━━━『 Utils 』━━━
-  🍁Utils section🍁
-
+━━━━『 Utils 』━━━━
 🎐 google, image, meme, subreddit, tourl, img, iguser, gif, sticker, take, pinterest, carbon
+
 ━━━━━━━━━━━━━━━━━━
  🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`			     
 const hhbut = [
