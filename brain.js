@@ -171,8 +171,8 @@ case '':
 
 
     const dbut = [
-{buttonId: '=help', buttonText: {displayText: '🚀 Help'}, type: 1},
-{buttonId: '=info', buttonText: {displayText: '🍁 Info'}, type: 1}
+{buttonId: '${prefix}help', buttonText: {displayText: '🚀Help'}, type: 1},
+{buttonId: '${prefix}info', buttonText: {displayText: '🍁Info'}, type: 1}
 ]
 let buttonMessaged = {
         image: {url:"https://telegra.ph/file/5701d54c0e3e6f51aa161.jpg"},
