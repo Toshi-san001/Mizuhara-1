@@ -427,6 +427,51 @@ break
     case 'owner': case 'creator': {
                 arus.sendContact(m.chat, global.owner, m)
 }
+break   
+                case 'haigusha' : 
+const waifu= await axios.get(`https://reina-api.vercel.app/api/mwl/random`)
+//const avv = `❤️ *Name : ${waifu.data.name}*\n\n💎️ Description : ${waifu.data.description}\n\n💚️ Source : ${waifu.data.series.name}\n\n✨️ URL: ${waifu.data.url}`
+//console.log(hai.data.display_picture)
+let hait = "";
+hait += `💙 *Name: ${waifu.data.name}*\n`;
+if (waifu.data.original_name !== "" && waifu.data.original_name !== null)
+    hait += `💚 *Original Name: ${waifu.data.original_name}*\n`;
+if (waifu.data.weight !== null) hait += `⚖ *Weight: ${waifu.data.weight}*\n`;
+if (waifu.data.height !== null) hait += `📍 *Height: ${waifu.height}*\n`;
+if (waifu.data.bust !== null) hait += `💠 *Bust: ${waifu.data.bust}*\n`;
+if (waifu.data.hip !== null) hait += `🎗 *Hip: ${waifu.data.hip}*\n`;
+if (waifu.data.waist !== null) hait += `🎀 *Waist: ${waifu.data.waist}*\n`;
+if (waifu.data.blood_type !== null)
+    hait += `🩸 *Blood Type: ${waifu.data.blood_type}*\n`;
+if (waifu.data.origin !== null && waifu.data.origin !== "") hait += `🎐 *Origin: ${waifu.data.origin}*\n`;
+if (waifu.data.age !== null&& waifu.data.age !== 0) hait += `🎂 *Age: ${waifu.data.age}*\n`;
+if (waifu.data.likes !== null) hait += `🖤 *Likes: ${waifu.data.likes}*\n`;
+hait += `🏅 *Like Rank: ${waifu.data.like_rank}*\n`;
+hait += `📈 *Popularity Rank: ${waifu.data.popularity_rank}*\n\n`;
+hait += `💛 *Source: ${waifu.data.series.name}*\n\n`;
+hait += `🌐 *URL: ${waifu.data.url}*\n\n`;
+hait += `❤ *Description:* ${waifu.data.description}\n`;
+console.log(hait)
+
+const suu =tb.set(`${m.chat}.hp`,waifu.data.display_picture )
+//console.log(suu)
+
+   const wname = ` ${waifu.data.name}`
+   //var wan = wname.replace(' (husbu)', '')
+   const wanarr = [wname]
+   await fs.writeFileSync(`./src/${m.sender}.json`, JSON.stringify(wanarr))
+   const haibu=[{buttonId:`${prefix}marry`,buttonText:{displayText:'💕 Marry'},type:1},
+   {buttonId:`${prefix}divorce`,buttonText:{displayText:'💔 Divorce'},type:1}]
+   const haib={
+ image:{url:waifu.data.display_picture},
+ caption:hait,
+buttons:haibu,
+footer:'©ARUS 2022',
+headerType:4
+   }
+arus.sendMessage(m.chat,haib,{quoted:m})
+console.log(waifu.data.name)
+}
 break
 case "carbon":
 case "code":
