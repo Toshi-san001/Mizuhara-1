@@ -419,10 +419,13 @@ let buttonMessagem = {
         title: "𒈒Arus𒈒",
         body: "Arus Modeators",
         thumbnail: await getBuffer("https://telegra.ph/file/5b28cd69c83532a9cd669.jpg"),
+}}
     }
 
  await arus.sendMessage(m.chat,buttonMessagem,{quoted:m})
-
+break
+    case 'owner': case 'creator': {
+                arus.sendContact(m.chat, global.owner, m)
 }
 break
 case "carbon":
