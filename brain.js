@@ -282,7 +282,7 @@ let hbutto = {
         caption: hlp,
         footer: '©Arus 2022',
         buttons: hhbut,
-        headerType: 4
+        headerType: 4,
         contextInfo:{"externalAdReply":{
         title: "Mizuhara by Arus",
         body: "𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚",
