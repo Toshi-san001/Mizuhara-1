@@ -254,19 +254,19 @@ break
 ━━━━『🍁Dev🍁』━━━━
 ❐ update, broadcast, ban, unban, chatid, join
 
-━━━━『🍀General🍀』━━━━
+━━『🍀General🍀』━━
 ❐ help, delete, info, rank, profile
 
 ━━━━『💫Fun💫』━━━━
 ❐ ship, advice, quote, leaderboard, react, fact, bot
 
-━━━━『🎉Media🎉』━━━━
+━━『🎉Media🎉』━━
 ❐ yta, ytv, play, gify, yts, lyrics
 
-━━━━『🔰Moderation🔰』━━━━
+━━『🔰Moderation🔰』━━
 ❐ demote, remove, ping, promote, deact, act, invite, group, seticon, setdesc
 
-━━━━『🏮Weeb🏮』━━━━
+━━『🏮Weeb🏮』━━
 ❐ anime, manga, charecter, haigusha, neko, waifu, pokemon
 
 ━━━━『💻Utils💻』━━━━
