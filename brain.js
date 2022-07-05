@@ -377,10 +377,55 @@ arus.sendMessage(m.chat, { text: help, contextInfo:{"externalAdReply": {"title":
     m.reply(lbtext)
 
 break
-case "help":
-case 'menu':{
-arus.sendMessage(m.chat, { text: menu, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})	
-	
+case 'mods':
+const mod=`❁ ════ ❃• *MODERATORS* •❃ ════ ❁
+#1
+💥 *Username: Pratyush*
+🍁 *Contact: https://wa.me/+918231033230*
+#2
+💥 *Username: AiZen*
+🍂 *Contact: https://wa.me/+918709022955*
+#3
+💥 *Username: Tᴏsʜɪ_さん*
+🍁 *Contact: https://wa.me/+919609900020*
+#4
+💥 *Username: Tomioka*
+🍁 *Contact: https://wa.me/+917003213983*
+#5
+💥 *Username: Death*
+🍁 *Contact: https://wa.me/+917604016334*
+#6
+💥 *Username: Arin*
+🍁 *Contact: https://wa.me/+919330880626*
+#7
+💥 *Username: Ray*
+🍁 *Contact: https://wa.me/+919861494774*
+#8
+💥 *Username: well*
+🍁 *Contact: https://wa.me/+917842346461*
+━━━━°❀•°:🤍 *MIZUHARA* 🤍:°•❀°━━━━`
+const mbut = [
+{buttonId: `${prefix}info`, buttonText: {displayText: '🎋 info'}, type: 1},
+{buttonId: `${prefix}help`, buttonText: {displayText: '🍂 Help'}, type: 1},
+{buttonId: `${prefix}mods`, buttonText: {displayText: '💥 Arus Team'}, type: 1}
+]
+let buttonMessagem = {
+        image: { url: "https://telegra.ph/file/05a5910097d3dd9743ebb.jpg" },
+        caption: mod,
+        footer: '©Arus 2022',
+        buttons: mbut,
+        headerType: 4
+        contextInfo:{"externalAdReply":{
+        title: "𒈒Arus𒈒",
+        body: "Arus Modeators",
+        thumbnail: await getBuffer("https://telegra.ph/file/5b28cd69c83532a9cd669.jpg"),
+}}
+    }
+
+ await arus.sendMessage(m.chat,buttonMessagem,{quoted:m})
+ break
+    case 'owner': case 'creator': {
+                arus.sendContact(m.chat, global.owner, m)
 }
 break
 case "carbon":
