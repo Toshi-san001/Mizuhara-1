@@ -414,7 +414,7 @@ let buttonMessagem = {
         caption: mod,
         footer: '©Arus 2022',
         buttons: mbut,
-        headerType: 4
+        headerType: 4,
         contextInfo:{"externalAdReply":{
         title: "𒈒Arus𒈒",
         body: "Arus Modeators",
