@@ -468,7 +468,8 @@ const suu =tb.set(`${m.chat}.hp`,waifu.data.display_picture )
 buttons:haibu,
 footer:'©ARUS 2022',
 headerType:4
-   }
+}}
+    }
 await arus.sendMessage(m.chat,buttonMessagem,{quoted:m})
 arus.sendMessage(m.chat,haib,{quoted:m})
 console.log(waifu.data.name)
