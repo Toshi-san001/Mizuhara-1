@@ -278,7 +278,7 @@ const hhbut = [
 {buttonId: `${prefix}profile`, buttonText: {displayText: '🎋Profile'}, type: 1}
 ]
 let hbutto = {
-        file: arus.sendMessage(m.chat,{video:fs.readFileSync('./src/help.mp4'),gifPlayback:true,caption:hlp},{quoted:m}),
+        image: {url:"https://telegra.ph/file/9e58cb8f7cb23d7e7f94d.jpg"},
         caption: hlp,
         footer: '©Arus 2022',
         buttons: hhbut,
