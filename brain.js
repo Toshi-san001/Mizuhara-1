@@ -282,12 +282,12 @@ let hbutto = {
         caption: hlp,
         footer: '©Arus 2022',
         buttons: hhbut,
-        headerType: 4
+        headerType: 4,
         contextInfo: {"externalAdReply":{
         title: "Mizuhara by Arus",
         body: "𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚",
         thumbnail: await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),
-        sourceUrl: "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})
+        sourceUrl: "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"
 }}
     }
 arus.sendMessage(m.chat,hbutto,{quoted:m})
