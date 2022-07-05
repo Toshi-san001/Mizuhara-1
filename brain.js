@@ -417,7 +417,7 @@ let buttonMessagem = {
         headerType: 4,
         contextInfo:{"externalAdReply":{
         title: "𒈒Arus𒈒",
-        body: "Arus Modeators",
+        body: "Arus Moderators",
         thumbnail: await getBuffer("https://telegra.ph/file/5b28cd69c83532a9cd669.jpg"),
 }}
     }
