@@ -379,19 +379,27 @@ arus.sendMessage(m.chat, { text: help, contextInfo:{"externalAdReply": {"title":
 break
 case 'mod':
 const mod=`🌀*MODERATORS*🌀 
-#1 *@+918231033230*
-#2 *@+918709022955*
-#3 *@+919609900020*
-#4 *@+917003213983*
-#5 *@+917604016334*
-#6 *@+919330880626*
-#7 *@+919861494774*
-#8 *@+917842346461*
-🍁*ARUS*🍁`
+#1 *🍁 pratyush 🍁*
+🎉 @+918231033230
+#2 *🍁 Aizen 🍁*
+🎉 @+918709022955
+#3 *🍁 Toshiro 🍁*
+🎉 @+919609900020
+#4 *🍁 Das-kun 🍁*
+🎉 @+917003213983
+#5 *🍁 Death-seak 🍁*
+🎉 @+917604016334
+#6 *🍁 Arin 🍁*
+🎉 @+919330880626
+#7 *🍁 Ray 🍁*
+🎉 @+919861494774
+#8 *🍁 Well300 🍁*
+🎉 @+917842346461
+   🍀*ARUS*🍀`
 const mbut = [
 {buttonId: `${prefix}info`, buttonText: {displayText: '🎋 info'}, type: 1},
 {buttonId: `${prefix}help`, buttonText: {displayText: '🍂 Help'}, type: 1},
-{buttonId: `${prefix}mods`, buttonText: {displayText: '💥 Arus Team'}, type: 1}
+{buttonId: `${prefix}mod`, buttonText: {displayText: '💥 Arus Team'}, type: 1}
 ]
 let buttonMessagem = {
         image: { url: "https://telegra.ph/file/c4f9bd9238fd840b01c65.jpg" },
