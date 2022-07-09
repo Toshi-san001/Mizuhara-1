@@ -378,32 +378,16 @@ arus.sendMessage(m.chat, { text: help, contextInfo:{"externalAdReply": {"title":
 
 break
 case 'mod':
-const mod=`❁ ════ ❃• *MODERATORS* •❃ ════ ❁
-#1
-💥 *Username: Pratyush*
-🍁 *Contact: https://wa.me/+918231033230*
-#2
-💥 *Username: AiZen*
-🍂 *Contact: https://wa.me/+918709022955*
-#3
-💥 *Username: Tᴏsʜɪ_さん*
-🍁 *Contact: https://wa.me/+919609900020*
-#4
-💥 *Username: Das-kun*
-🍁 *Contact: https://wa.me/+917003213983*
-#5
-💥 *Username: Death-seak*
-🍁 *Contact: https://wa.me/+917604016334*
-#6
-💥 *Username: Arin*
-🍁 *Contact: https://wa.me/+919330880626*
-#7
-💥 *Username: Ray Senpai*
-🍁 *Contact: https://wa.me/+919861494774*
-#8
-💥 *Username: well300*
-🍁 *Contact: https://wa.me/+917842346461*
-━━━━°❀•°:🤍 *ARUS* 🤍:°•❀°━━━━`
+const mod=`🌀*MODERATORS*🌀 
+#1 *@+918231033230*
+#2 *@+918709022955*
+#3 *@+919609900020*
+#4 *@+917003213983*
+#5 *@+917604016334*
+#6 *@+919330880626*
+#7 *@+919861494774*
+#8 *@+917842346461*
+🍁*ARUS*🍁`
 const mbut = [
 {buttonId: `${prefix}info`, buttonText: {displayText: '🎋 info'}, type: 1},
 {buttonId: `${prefix}help`, buttonText: {displayText: '🍂 Help'}, type: 1},
