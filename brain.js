@@ -175,8 +175,8 @@ case '':
 {buttonId: `${prefix}info`, buttonText: {displayText: 'Bot status'}, type: 1}
 ]
 let buttonMessaged = {
-        image: {url:"https://telegra.ph/file/5701d54c0e3e6f51aa161.jpg"},
-        caption: `*Kon'nichiwa ${pushname} Did You Mean ${prefix}help ?*`,
+        image: {url:"https://telegra.ph/file/217ea2716360f9e431d6a.jpg"},
+        caption: `*Hey ${pushname} Did You Mean ${prefix}help ?*`,
         footer: '©Arus 2022',
         buttons: dbut,
         headerType: 4
@@ -243,7 +243,7 @@ break
 		   case "help":
                    case 'menu':
                    const hlp=`
-*(❤️ω❤️)Kon'nichiwa 👋🏻 watashiwa ${pushname} Darling I'm Mizuhara*
+*(❤️ω❤️)Kon'nichiwa 👋🏻 watashiwa ${pushname} Darling I'm ZeroTwo-desu*
 
 📝Note: if Bot did not responding then it's offline or owner internet issue so please wait until Bot comes online.!
 
@@ -275,18 +275,18 @@ break
  🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`			     
 const hhbut = [
 {buttonId: `${prefix}info`, buttonText: {displayText: '⭐Info'}, type: 1},
-{buttonId: `${prefix}profile`, buttonText: {displayText: '🎋Profile'}, type: 1}
+{buttonId: `${prefix}mod`, buttonText: {displayText: '🎋Mods'}, type: 1}
 ]
 let hbutto = {
-        image: {url:"https://telegra.ph/file/9e58cb8f7cb23d7e7f94d.jpg"},
+        image: {url:"https://telegra.ph/file/e377946dbddc72d6ab388.jpg"},
         caption: hlp,
         footer: '©Arus 2022',
         buttons: hhbut,
         headerType: 4,
         contextInfo:{"externalAdReply":{
-        title: "𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚",
+        title: "𝐙𝐞𝐫𝐨𝐓𝐰𝐨",
         body: "Created by Arus",
-        thumbnail: await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),
+        thumbnail: await getBuffer("https://telegra.ph/file/49152382cbc038821c147.jpg"),
 }}
     }
 arus.sendMessage(m.chat,hbutto,{quoted:m})
@@ -377,7 +377,7 @@ arus.sendMessage(m.chat, { text: help, contextInfo:{"externalAdReply": {"title":
     m.reply(lbtext)
 
 break
-case 'mods':
+case 'mod':
 const mod=`❁ ════ ❃• *MODERATORS* •❃ ════ ❁
 #1
 💥 *Username: Pratyush*
@@ -389,28 +389,28 @@ const mod=`❁ ════ ❃• *MODERATORS* •❃ ════ ❁
 💥 *Username: Tᴏsʜɪ_さん*
 🍁 *Contact: https://wa.me/+919609900020*
 #4
-💥 *Username: Tomioka*
+💥 *Username: Das-kun*
 🍁 *Contact: https://wa.me/+917003213983*
 #5
-💥 *Username: Death*
+💥 *Username: Death-seak*
 🍁 *Contact: https://wa.me/+917604016334*
 #6
 💥 *Username: Arin*
 🍁 *Contact: https://wa.me/+919330880626*
 #7
-💥 *Username: Ray*
+💥 *Username: Ray Senpai*
 🍁 *Contact: https://wa.me/+919861494774*
 #8
-💥 *Username: well*
+💥 *Username: well300*
 🍁 *Contact: https://wa.me/+917842346461*
-━━━━°❀•°:🤍 *MIZUHARA* 🤍:°•❀°━━━━`
+━━━━°❀•°:🤍 *ARUS* 🤍:°•❀°━━━━`
 const mbut = [
 {buttonId: `${prefix}info`, buttonText: {displayText: '🎋 info'}, type: 1},
 {buttonId: `${prefix}help`, buttonText: {displayText: '🍂 Help'}, type: 1},
 {buttonId: `${prefix}mods`, buttonText: {displayText: '💥 Arus Team'}, type: 1}
 ]
 let buttonMessagem = {
-        image: { url: "https://telegra.ph/file/05a5910097d3dd9743ebb.jpg" },
+        image: { url: "https://telegra.ph/file/c4f9bd9238fd840b01c65.jpg" },
         caption: mod,
         footer: '©Arus 2022',
         buttons: mbut,
@@ -866,7 +866,7 @@ if (!isBotAdmins) return m.reply("❌ Cannot execute without being admin")
 ]
 const listMessage = {
   text: "Choose the required setting",
-  footer: "@ARUS",
+  footer: "©ARUS",
   title: "",
   buttonText: "settings",
   sections
