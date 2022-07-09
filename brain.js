@@ -380,22 +380,23 @@ break
 case 'mod':
 const mod=`🌀*MODERATORS*🌀 
 #1 *🍁 pratyush 🍁*
-🎉 @+918231033230
+🎉 Wa.me/+918231033230
 #2 *🍁 Aizen 🍁*
-🎉 @+918709022955
-#3 *🍁 Toshiro 🍁*
-🎉 @+919609900020
+🎉 Wa.me/+918709022955
+#3 *🍁 Tᴏsʜɪ_さん 🍁*
+🎉 Wa.me/+919609900020
 #4 *🍁 Das-kun 🍁*
-🎉 @+917003213983
+🎉 Wa.me/+917003213983
 #5 *🍁 Death-seak 🍁*
-🎉 @+917604016334
+🎉 Wa.me/+917604016334
 #6 *🍁 Arin 🍁*
-🎉 @+919330880626
+🎉 Wa.me/+919330880626
 #7 *🍁 Ray 🍁*
-🎉 @+919861494774
+🎉 Wa.me/+919861494774
 #8 *🍁 Well300 🍁*
-🎉 @+917842346461
-   🍀*ARUS*🍀`
+🎉 Wa.me/+917842346461
+
+     🍀*ARUS*🍀`
 const mbut = [
 {buttonId: `${prefix}info`, buttonText: {displayText: '🎋 info'}, type: 1},
 {buttonId: `${prefix}help`, buttonText: {displayText: '🍂 Help'}, type: 1},
@@ -408,7 +409,7 @@ let buttonMessagem = {
         buttons: mbut,
         headerType: 4,
         contextInfo:{"externalAdReply":{
-        title: "𒈒Arus𒈒",
+        title: "𒈒 Arus 𒈒",
         body: "Arus Moderators",
         thumbnail: await getBuffer("https://telegra.ph/file/5b28cd69c83532a9cd669.jpg"),
 }}
