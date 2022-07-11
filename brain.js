@@ -249,39 +249,39 @@ break
 
 🎐My Prefix is:- ${prefix}
 
-⭐ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 ⭐
+🏮 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 🏮
 
 ━━━━『 Dev 』━━━━
-🌀Help1
-🏮Description:. This command will redirect to dev list!
-🧧Usage: ${prefix}help1 
+```🌀Help1
+🎐Description:. This command will redirect to dev list!
+🧧Usage: ${prefix}help1
 
 ━━『 General 』━━
 🌀Help2
-🏮Description: This command will redirect to General list!
+🎐Description: This command will redirect to General list!
 🧧Usage: ${prefix}help2
 
 ━━━━『 Fun 』━━━━
 🌀Help3
-🏮Description: This command will redirect to Fun list!
+🎐Description: This command will redirect to Fun list!
 🧧Usage: ${prefix}help3 
 
 ━━『 Media 』━━
 🌀Help4
-🏮Description: This command will redirect to Media list!
+🎐Description: This command will redirect to Media list!
 🧧Usage: ${prefix}help4 
 
 ━━『 Moderation 』━━
 🌀Help5
-🏮Description: This command will redirect to moderation list!
+🎐Description: This command will redirect to moderation list!
 🧧Usage: ${prefix}help5 
 
 ━━『 Weeb 』━━
 🌀Help6
-🏮Description: This command will redirect to weeb list!
+🎐Description: This command will redirect to weeb list!
 🧧Usage: ${prefix}help6
 
- 🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`			     
+ 🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐```			     
 const hhbut = [
 {buttonId: `${prefix}info`, buttonText: {displayText: '⭐Info'}, type: 1},
 {buttonId: `${prefix}mod`, buttonText: {displayText: '🎋Mods'}, type: 1}
