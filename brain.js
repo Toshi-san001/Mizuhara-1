@@ -259,7 +259,6 @@ const listMessage = {
   title: "",
   buttonText: "Menu",
   sections
-}
                     await arus.sendMessage(m.chat, listMessage)
 
    }
