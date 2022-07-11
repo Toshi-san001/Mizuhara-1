@@ -245,16 +245,14 @@ break
                    const hlp=`
 *(❤️ω❤️)Kon'nichiwa 👋🏻 watashiwa ${pushname} Darling I'm ZeroTwo-desu*
 
-📝Note: if Bot did not responding then it's offline or owner internet issue so please wait until Bot comes online.!
-
-🍀Tag: # ${disc}
+📝Note: if Bot did not responding then it's offline or owner internet issue so please wait until Bot comes online!
 🎐My Prefix is:- ${prefix}
 
 🏮 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 🏮
 
 ━━━━『 Dev 』━━━━
 🌀Help1
-🎐Description:. This command will redirect to dev list!
+🎐Description: This command will redirect to dev list!
 🧧Usage: ${prefix}help1
 
 ━━━━『 General 』━━━━
@@ -284,8 +282,8 @@ break
 
  🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`		     
 const hhbut = [
-{buttonId: `${prefix}info`, buttonText: {displayText: '⭐Info'}, type: 1},
-{buttonId: `${prefix}mod`, buttonText: {displayText: '🎋Mods'}, type: 1}
+{buttonId: `${prefix}info`, buttonText: {displayText: 'Info'}, type: 1},
+{buttonId: `${prefix}mod`, buttonText: {displayText: 'Mods'}, type: 1}
 ]
 let hbutto = {
         image: {url:"https://telegra.ph/file/e377946dbddc72d6ab388.jpg"},
@@ -295,7 +293,7 @@ let hbutto = {
         headerType: 4,
         contextInfo:{"externalAdReply":{
         title: "𝐙𝐞𝐫𝐨𝐓𝐰𝐨",
-        body: "Created by Arus",
+        body: "Created by Toshiro",
         thumbnail: await getBuffer("https://telegra.ph/file/49152382cbc038821c147.jpg"),
 }}
     }
