@@ -248,8 +248,8 @@ const sections = [
     {
 	title: "GROUP settings",
 	rows: [
-	    {title: "Hii", rowId: `${prefix}Huiii`}
-	    {title: "Hii", rowId: `${prefix}Huii`}
+	    {title: "Hii", rowId: `${prefix}Huiii`, description: "This will open the group"},
+	    {title: "Hii", rowId: `${prefix}Huii`, description: "This will open the group"}
 	]
     }
 ]
