@@ -254,7 +254,7 @@ break
 ━━━━『 Dev 』━━━━
 ```🌀Help1
 🎐Description:. This command will redirect to dev list!
-🧧Usage: ${prefix}help1
+🧧Usage: ${prefix}help1```
 
 ━━『 General 』━━
 🌀Help2
@@ -281,7 +281,7 @@ break
 🎐Description: This command will redirect to weeb list!
 🧧Usage: ${prefix}help6
 
- 🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐```			     
+ 🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`		     
 const hhbut = [
 {buttonId: `${prefix}info`, buttonText: {displayText: '⭐Info'}, type: 1},
 {buttonId: `${prefix}mod`, buttonText: {displayText: '🎋Mods'}, type: 1}
