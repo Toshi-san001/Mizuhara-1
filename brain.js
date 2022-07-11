@@ -246,13 +246,11 @@ break
 
 const sections = [
     {
-	title: "GROUP settings",
+	title: "GROUP settings"
 	rows: [
 	    {title: "Hii", rowId: `${prefix}Huiii`, description: "This will open the group"},
 	    {title: "Hii", rowId: `${prefix}Huii`, description: "This will open the group"}
 	]
-    }
-]
 const listMessage = {
   text: "ruk ja bc update kar raha hu",
   footer: "©ARUS",
