@@ -247,6 +247,7 @@ break
 
 📝Note: if Bot did not responding then it's offline or owner internet issue so please wait until Bot comes online.!
 
+🍀Tag: # ${disc}
 🎐My Prefix is:- ${prefix}
 
 🏮 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 🏮
@@ -254,9 +255,9 @@ break
 ━━━━『 Dev 』━━━━
 🌀Help1
 🎐Description:. This command will redirect to dev list!
-🧧Usage: ${prefix}help1\n\n
+🧧Usage: ${prefix}help1
 
-━━『 General 』━━
+━━━━『 General 』━━━━
 🌀Help2
 🎐Description: This command will redirect to General list!
 🧧Usage: ${prefix}help2
@@ -266,7 +267,7 @@ break
 🎐Description: This command will redirect to Fun list!
 🧧Usage: ${prefix}help3 
 
-━━『 Media 』━━
+━━━━『 Media 』━━━━
 🌀Help4
 🎐Description: This command will redirect to Media list!
 🧧Usage: ${prefix}help4 
@@ -276,7 +277,7 @@ break
 🎐Description: This command will redirect to moderation list!
 🧧Usage: ${prefix}help5 
 
-━━『 Weeb 』━━
+━━━━『 Weeb 』━━━━
 🌀Help6
 🎐Description: This command will redirect to weeb list!
 🧧Usage: ${prefix}help6
