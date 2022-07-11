@@ -248,7 +248,7 @@ const sections = [
     {
 	title: "GROUP settings",
 	rows: [
-	    {title: "Hii", rowId: `${prefix}Huiii`},
+	    {title: "Hii", rowId: `${prefix}Huiii`}
 	    {title: "Hii", rowId: `${prefix}Huii`}
 	]
     }
@@ -262,9 +262,8 @@ const listMessage = {
 }
                     await arus.sendMessage(m.chat, listMessage)
 
-            }
-    }
-arus.sendMessage(m.chat,hbutto,{quoted:m})
+ }
+   }
 arus.sendMessage(m.chat, { text: help, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})
 			   break
 		   case 'session': {
