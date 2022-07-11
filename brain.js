@@ -252,9 +252,9 @@ break
 🏮 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 🏮
 
 ━━━━『 Dev 』━━━━
-```🌀Help1
+🌀Help1
 🎐Description:. This command will redirect to dev list!
-🧧Usage: ${prefix}help1```
+🧧Usage: ${prefix}help1\n\n
 
 ━━『 General 』━━
 🌀Help2
