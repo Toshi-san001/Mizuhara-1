@@ -321,7 +321,6 @@ let hbutto = {
         title: "𝐙𝐞𝐫𝐨𝐓𝐰𝐨",
         body: "Created by Toshiro",
         thumbnail: await getBuffer("https://telegra.ph/file/49152382cbc038821c147.jpg"),
-}}
     }
 arus.sendMessage(m.chat,hbutto,{quoted:m})
 }
