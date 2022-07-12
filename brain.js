@@ -237,7 +237,6 @@ arus.sendMessage(m.chat, { image: { url: data.sprites.front_default }, caption: 
 m.reply("An Error Occurred")
 console.log(err)
 }
-}
 break
 		   case "h":
 		   case "help":
@@ -293,24 +292,21 @@ let hbutto = {
 }}
     }
 arus.sendMessage(m.chat,hbutto,{quoted:m})
-arus.sendMessage(m.chat, { text: help, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})
 }
-
 break
-case "general":
+		   case "g":
 		   case "general":
-                   case 'genral':
+                   case 'general':
                    const hlp=`
-                   
+
 ━━━━❰ General ❱━━━━
-
-🍀Help
-🍀Info
-🍀Rank
-🍀Profile
+🍀Help 
 🍀Delete
+🍀Profile
+🍀Rank
+🍀Info
 
-🧧Powered by Arus🧧`
+ 🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`		     
 const hhbut = [
 {buttonId: `${prefix}info`, buttonText: {displayText: 'Info'}, type: 1},
 {buttonId: `${prefix}mod`, buttonText: {displayText: 'Mods'}, type: 1}
