@@ -52,7 +52,7 @@ module.exports = arus = async (arus, m, chatUpdate, store) => {
         const botNumber = await arus.decodeJid(arus.user.id)
         const isCreator = [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
         const itsMe = m.sender == botNumber ? true : false
-		 const botName = process.env.NAME || "Mizuhara"
+		 const botName = process.env.NAME || "ZeroTwo"
 		const ter = args.join(' ') 
         const contant = q = args.join(" ")
         const quoted = m.quoted ? m.quoted : m
