@@ -246,39 +246,34 @@ break
 *(❤️ω❤️)Kon'nichiwa 👋🏻 watashiwa ${pushname} Darling I'm ZeroTwo-desu*
 
 📝Note: if Bot did not responding then it's offline or owner internet issue so please wait until Bot comes online!
+
 🎐My Prefix is:- ${prefix}
 
 🏮 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 🏮
 
-━━━━『 Dev 』━━━━
-🌀Help1
+🌀Dev
 🎐Description: This command will redirect to dev list!
-🧧Usage: ${prefix}help1
+🧧Usage: ${prefix}dev
 
-━━━━『 General 』━━━━
-🌀Help2
+🌀General
 🎐Description: This command will redirect to General list!
-🧧Usage: ${prefix}help2
+🧧Usage: ${prefix}general
 
-━━━━『 Fun 』━━━━
-🌀Help3
+🌀Fun
 🎐Description: This command will redirect to Fun list!
-🧧Usage: ${prefix}help3 
+🧧Usage: ${prefix}fun
 
-━━━━『 Media 』━━━━
-🌀Help4
+🌀Media
 🎐Description: This command will redirect to Media list!
-🧧Usage: ${prefix}help4 
+🧧Usage: ${prefix}media
 
-━━『 Moderation 』━━
-🌀Help5
+🌀Moderation
 🎐Description: This command will redirect to moderation list!
-🧧Usage: ${prefix}help5 
+🧧Usage: ${prefix}moderation
 
-━━━━『 Weeb 』━━━━
-🌀Help6
+🌀Weeb
 🎐Description: This command will redirect to weeb list!
-🧧Usage: ${prefix}help6
+🧧Usage: ${prefix}weeb
 
  🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`		     
 const hhbut = [
@@ -299,6 +294,37 @@ let hbutto = {
     }
 arus.sendMessage(m.chat,hbutto,{quoted:m})
 arus.sendMessage(m.chat, { text: help, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})
+
+break
+                   
+		   case "general":
+                   case 'general':
+                   const general=`
+━━━━❰ General ❱━━━━
+
+🍀Help
+🍀Info
+🍀Rank
+🍀Profile
+🍀Delete
+`
+const hhbut = [
+{buttonId: `${prefix}info`, buttonText: {displayText: 'Info'}, type: 1},
+{buttonId: `${prefix}mod`, buttonText: {displayText: 'Mods'}, type: 1}
+]
+let hbutto = {
+        image: {url:"https://telegra.ph/file/e377946dbddc72d6ab388.jpg"},
+        caption: hlp,
+        footer: '©Arus 2022',
+        buttons: hhbut,
+        headerType: 4,
+        contextInfo:{"externalAdReply":{
+        title: "𝐙𝐞𝐫𝐨𝐓𝐰𝐨",
+        body: "Created by Toshiro",
+        thumbnail: await getBuffer("https://telegra.ph/file/49152382cbc038821c147.jpg"),
+}}
+    }
+arus.sendMessage(m.chat,hbutto,{quoted:m})
 			   break
 		   case 'session': {
 			   if (!isCreator) return m.reply("📍The user of this command must be the owner of the bot")
