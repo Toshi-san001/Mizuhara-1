@@ -297,9 +297,9 @@ arus.sendMessage(m.chat, { text: help, contextInfo:{"externalAdReply": {"title":
 }
 break
                    
-		   case "general":
+		  
                    case 'general':
-                   const hlp=`
+                   
 ━━━━❰ General ❱━━━━
 
 🍀Help
