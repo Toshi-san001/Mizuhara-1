@@ -308,7 +308,7 @@ break
 🍀Profile
 🍀Delete
 
-🧧Powered by Arus🧧`
+🧧Powered by Arus🧧
 const hhbut = [
 {buttonId: `${prefix}info`, buttonText: {displayText: 'Info'}, type: 1},
 {buttonId: `${prefix}mod`, buttonText: {displayText: 'Mods'}, type: 1}
