@@ -299,7 +299,7 @@ break
                    
 		   case "general":
                    case 'general':
-                   const general=`
+                   const hlp=`
 ━━━━❰ General ❱━━━━
 
 🍀Help
