@@ -52,7 +52,7 @@ module.exports = arus = async (arus, m, chatUpdate, store) => {
         const botNumber = await arus.decodeJid(arus.user.id)
         const isCreator = [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
         const itsMe = m.sender == botNumber ? true : false
-		 const botName = process.env.NAME || "ZeroTwo"
+		 const botName = process.env.NAME || "Mizuhara"
 		const ter = args.join(' ') 
         const contant = q = args.join(" ")
         const quoted = m.quoted ? m.quoted : m
@@ -237,6 +237,7 @@ arus.sendMessage(m.chat, { image: { url: data.sprites.front_default }, caption: 
 m.reply("An Error Occurred")
 console.log(err)
 }
+}
 break
 		   case "h":
 		   case "help":
@@ -244,40 +245,172 @@ break
                    const hlp=`
 *(❤️ω❤️)Kon'nichiwa 👋🏻 watashiwa ${pushname} Darling I'm ZeroTwo-desu*
 
-📝Note: if Bot did not responding then it's offline or owner internet issue so please wait until Bot comes online!
+📝Note: if Bot did not responding then it's offline or owner internet issue so please wait until Bot comes online.!
 
-🎐My Prefix is:- ${prefix}
+🧧My Prefix is:- ${prefix}
 
-🏮 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 🏮
+My All usable Commands are listed below👇🏻
 
-🌀Dev
-🎐Description: This command will redirect to dev list!
-🧧Usage: ${prefix}dev
+     🍁 DEV 🍁
 
-🌀General
-🎐Description: This command will redirect to General list!
-🧧Usage: ${prefix}general
+🌀Broadcast
+🍀Usage:- ${prefix}broadcast
 
-🌀Fun
-🎐Description: This command will redirect to Fun list!
-🧧Usage: ${prefix}fun
+🌀Ban
+🍀Usage:- ${prefix}ban
+ 
+🌀Chatid
+🍀Usage:- ${prefix}chatid
 
-🌀Media
-🎐Description: This command will redirect to Media list!
-🧧Usage: ${prefix}media
+🌀Join
+🍀Usage:- ${prefix}join
 
-🌀Moderation
-🎐Description: This command will redirect to moderation list!
-🧧Usage: ${prefix}moderation
+    🍀 General 🍀
 
-🌀Weeb
-🎐Description: This command will redirect to weeb list!
-🧧Usage: ${prefix}weeb
+🌀Help 
+🍀Usage:- ${prefix}help
 
- 🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`		     
+🌀Delete
+🍀Usage:- ${prefix}delete
+
+🌀Info
+🍀Usage:- ${prefix}info
+
+     🎋 FUN 🎋
+
+🌀Ship
+🍀Usage:- ${prefix}ship
+
+🌀Advice
+🍀Usage:- ${prefix}advice
+
+🌀Quote
+🍀Usage:- ${prefix}quote
+
+🌀Leaderboard
+🍀Usage:- ${prefix}leaderboard
+
+    ◀️ MEDIA ◀️
+
+🌀Yta
+🍀Usage:- ${prefix}yta
+
+🌀Ytv
+🍀Usage:- ${prefix}ytv
+
+🌀Play
+🍀Usage:- ${prefix}play
+
+🌀Gify
+🍀Usage:- ${prefix}gify
+
+🌀Yts
+🍀Usage:- ${prefix}Yts
+
+🌀Lyrics
+🍀Usage:- ${prefix}lyrics
+
+   🍥 MODERATION 🍥
+
+🌀Command Demote
+🍀Usage:- ${prefix}demote
+
+🌀Command Remove
+🍀Usage:- ${prefix}remove
+
+🌀Command Ping
+🍀Usage:- ${prefix}ping
+
+🌀Command Promote
+🍀Usage:- ${prefix}promote
+
+🍥Act
+Mod
+Events
+Nsfw
+
+🍥Deact
+Mod
+Events
+Nsfw
+
+🌀Command Invite
+🍀Usage:- ${prefix}invite 
+
+🌀Group
+🍀Usage:- ${prefix}group
+
+🌀Command seticon
+🍀Usage:- ${prefix}seticon
+
+🌀Command setdesc 
+🍀Usage:- ${prefix}setdesc
+
+    🏮 WEEB 🏮
+    
+🌀Command Anime
+🍀Usage:- ${prefix}anime
+
+🌀Command Manga
+🍀Usage:- ${prefix}manga 
+
+🌀Command Charecter
+🍀Usage:- ${prefix}character
+
+🌀Command Haigusha
+🍀Usage:- ${prefix}haigusha
+
+🌀Command Neko
+🍀Usage:- ${prefix}neko
+
+🌀Command Waifu
+🍀Usage:- ${prefix}waifu
+
+🌀Command pokemon
+🍀Usage:- ${prefix}pokemon
+
+     💻 UTILS 💻
+     
+🌀Command Google
+🍀Usage:- ${prefix}google
+
+🌀Command Image
+🍀Usage:- ${prefix}image
+
+🌀Command Meme
+🍀Usage:- ${prefix}meme
+
+🌀Command Subreddit
+🍀Usage:- ${prefix}subreddit
+
+🌀Command Tourl
+🍀Usage:- ${prefix}tourl
+
+🌀Command Img
+🍀Usage:- ${prefix}img
+
+🌀Command Iguser
+🍀Usage:- ${prefix}iguser 
+
+🌀Command Gif
+🍀Usage:- ${prefix}gif
+
+🌀Command Sticker
+🍀Usage:- ${prefix}sticker
+
+🌀Command Take
+🍀Usage:- ${prefix}take
+
+🌀Command Pinterest
+🍀Usage:- ${prefix}pinterest 
+
+🌀Command Carbon
+🍀Usage:- ${prefix}carbon
+
+ 🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`			     
 const hhbut = [
-{buttonId: `${prefix}info`, buttonText: {displayText: 'Info'}, type: 1},
-{buttonId: `${prefix}mod`, buttonText: {displayText: 'Mods'}, type: 1}
+{buttonId: `${prefix}info`, buttonText: {displayText: '⭐Info'}, type: 1},
+{buttonId: `${prefix}mod`, buttonText: {displayText: '🎋Mods'}, type: 1}
 ]
 let hbutto = {
         image: {url:"https://telegra.ph/file/e377946dbddc72d6ab388.jpg"},
@@ -287,44 +420,12 @@ let hbutto = {
         headerType: 4,
         contextInfo:{"externalAdReply":{
         title: "𝐙𝐞𝐫𝐨𝐓𝐰𝐨",
-        body: "Created by Toshiro",
+        body: "Created by Arus",
         thumbnail: await getBuffer("https://telegra.ph/file/49152382cbc038821c147.jpg"),
 }}
     }
 arus.sendMessage(m.chat,hbutto,{quoted:m})
-}
-break
-		   case "g":
-		   case "general":
-                   case 'general':
-                   const gen=`
-
-━━━━❰ General ❱━━━━
-🍀Help 
-🍀Delete
-🍀Profile
-🍀Rank
-🍀Info
-
- 🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`		     
-const hhbut = [
-{buttonId: `${prefix}info`, buttonText: {displayText: 'Info'}, type: 1},
-{buttonId: `${prefix}mod`, buttonText: {displayText: 'Mods'}, type: 1}
-]
-let hbutto = {
-        image: {url:"https://telegra.ph/file/e377946dbddc72d6ab388.jpg"},
-        caption: hlp,
-        footer: '©Arus 2022',
-        buttons: hhbut,
-        headerType: 4,
-        contextInfo:{"externalAdReply":{
-        title: "𝐙𝐞𝐫𝐨𝐓𝐰𝐨",
-        body: "Created by Toshiro",
-        thumbnail: await getBuffer("https://telegra.ph/file/49152382cbc038821c147.jpg"),
-}}
-    }
-arus.sendMessage(m.chat,hbutto,{quoted:m})
-}
+arus.sendMessage(m.chat, { text: help, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})
 			   break
 		   case 'session': {
 			   if (!isCreator) return m.reply("📍The user of this command must be the owner of the bot")
