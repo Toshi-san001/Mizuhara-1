@@ -1761,12 +1761,12 @@ break
                let waifud = await axios.get('https://waifu.pics/api/sfw/waifu')
  arus.sendMessage(m.chat, { image: { url: waifud.data.url }, caption: "Here you go" }, { quoted: m })
 const dbut = [
-        {buttonId: `${prefix}waifu`, buttonText: {displayText: `➡️NEXT`}, type: 1},
-        {buttonId: `${prefix}neko2`, buttonText: {displayText: `🐱Neko`}, type: 1},
+        {buttonId: `${prefix}waifu`, buttonText: {displayText: `❤️waifu`}, type: 1},
+        {buttonId: `${prefix}neko`, buttonText: {displayText: `🐱Neko`}, type: 1},
         ]
       let buttonsMessage = {
        image: await getBuffer(waifud.data.url),
-      text: `❤️`,
+      text: `Here Is your wiafu she will run your laifu`,
       footer: '©Arus 2022',
       buttons: dbut,
       headerType: 4
@@ -1794,7 +1794,7 @@ const dbut = [
 {buttonId: `${prefix}waifu`, buttonText: {displayText: 'Waifu'}, type: 1}
 ]
 let buttonMessaged = {
-        text: `❤️`,
+        text: `Here is you neko tap on below buttons to see more`,
         footer: '@ARUS',
         buttons: dbut,
         headerType: 4
