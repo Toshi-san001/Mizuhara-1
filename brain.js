@@ -1774,7 +1774,7 @@ var wbutss = [
             await arus.sendMessage(m.chat,buttonsMessage, { quoted:m }).catch(err => {
                     return('error..')
                 })
-
+}
                 break  
  case 'couplepp': case 'ppcouple': {
                 //replay(mess.wait)
