@@ -1760,16 +1760,15 @@ break
  case 'waifu': {
                let waifud = await axios.get('https://waifu.pics/api/sfw/waifu')
  arus.sendMessage(m.chat, { image: { url: waifud.data.url }, caption: "Here you go" }, { quoted: m })
-}
 var wbutss = [
-        {buttonId: `.waifu`, buttonText: {displayText: `➡️NEXT`}, type: 1},
-        {buttonId: `.neko2`, buttonText: {displayText: `🐱Neko2`}, type: 1},
+        {buttonId: `${prefix}waifu`, buttonText: {displayText: `➡️NEXT`}, type: 1},
+        {buttonId: `${prefix}neko2`, buttonText: {displayText: `🐱Neko`}, type: 1},
         ]
       let buttonsMessage = {
        image: await getBuffer(waifud.data.url),
-       caption:  `*Here is your waifu*`,
+      text: `❤️`,
       footer: '©Arus 2022',
-      buttons: wbutss,
+      buttons: dbut,
       headerType: 4
       }
             await arus.sendMessage(m.chat,buttonsMessage, { quoted:m }).catch(err => {
