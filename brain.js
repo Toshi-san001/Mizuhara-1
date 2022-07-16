@@ -243,188 +243,26 @@ break
 		   case "help":
                    case 'menu':
                    const hlp=`
-*(❤️ω❤️)Kon'nichiwa 👋🏻 watashiwa ${pushname} Darling I'm ZeroTwo-desu*
-
-📝Note: if Bot did not responding then it's offline or owner internet issue so please wait until Bot comes online.!
-
-🧧My Prefix is:- ${prefix}
-
-My All usable Commands are listed below👇🏻
-
-     🍁 DEV 🍁
-
-🌀Broadcast
-🍀Usage:- ${prefix}broadcast
-
-🌀Ban
-🍀Usage:- ${prefix}ban
- 
-🌀Chatid
-🍀Usage:- ${prefix}chatid
-
-🌀Join
-🍀Usage:- ${prefix}join
-
-    🍀 General 🍀
-
-🌀Help 
-🍀Usage:- ${prefix}help
-
-🌀Delete
-🍀Usage:- ${prefix}delete
-
-🌀Info
-🍀Usage:- ${prefix}info
-
-     🎋 FUN 🎋
-
-🌀Ship
-🍀Usage:- ${prefix}ship
-
-🌀Advice
-🍀Usage:- ${prefix}advice
-
-🌀Quote
-🍀Usage:- ${prefix}quote
-
-🌀Leaderboard
-🍀Usage:- ${prefix}leaderboard
-
-    ◀️ MEDIA ◀️
-
-🌀Yta
-🍀Usage:- ${prefix}yta
-
-🌀Ytv
-🍀Usage:- ${prefix}ytv
-
-🌀Play
-🍀Usage:- ${prefix}play
-
-🌀Gify
-🍀Usage:- ${prefix}gify
-
-🌀Yts
-🍀Usage:- ${prefix}Yts
-
-🌀Lyrics
-🍀Usage:- ${prefix}lyrics
-
-   🍥 MODERATION 🍥
-
-🌀Command Demote
-🍀Usage:- ${prefix}demote
-
-🌀Command Remove
-🍀Usage:- ${prefix}remove
-
-🌀Command Ping
-🍀Usage:- ${prefix}ping
-
-🌀Command Promote
-🍀Usage:- ${prefix}promote
-
-🍥Act
-Mod
-Events
-Nsfw
-
-🍥Deact
-Mod
-Events
-Nsfw
-
-🌀Command Invite
-🍀Usage:- ${prefix}invite 
-
-🌀Group
-🍀Usage:- ${prefix}group
-
-🌀Command seticon
-🍀Usage:- ${prefix}seticon
-
-🌀Command setdesc 
-🍀Usage:- ${prefix}setdesc
-
-    🏮 WEEB 🏮
-    
-🌀Command Anime
-🍀Usage:- ${prefix}anime
-
-🌀Command Manga
-🍀Usage:- ${prefix}manga 
-
-🌀Command Charecter
-🍀Usage:- ${prefix}character
-
-🌀Command Haigusha
-🍀Usage:- ${prefix}haigusha
-
-🌀Command Neko
-🍀Usage:- ${prefix}neko
-
-🌀Command Waifu
-🍀Usage:- ${prefix}waifu
-
-🌀Command pokemon
-🍀Usage:- ${prefix}pokemon
-
-     💻 UTILS 💻
-     
-🌀Command Google
-🍀Usage:- ${prefix}google
-
-🌀Command Image
-🍀Usage:- ${prefix}image
-
-🌀Command Meme
-🍀Usage:- ${prefix}meme
-
-🌀Command Subreddit
-🍀Usage:- ${prefix}subreddit
-
-🌀Command Tourl
-🍀Usage:- ${prefix}tourl
-
-🌀Command Img
-🍀Usage:- ${prefix}img
-
-🌀Command Iguser
-🍀Usage:- ${prefix}iguser 
-
-🌀Command Gif
-🍀Usage:- ${prefix}gif
-
-🌀Command Sticker
-🍀Usage:- ${prefix}sticker
-
-🌀Command Take
-🍀Usage:- ${prefix}take
-
-🌀Command Pinterest
-🍀Usage:- ${prefix}pinterest 
-
-🌀Command Carbon
-🍀Usage:- ${prefix}carbon
-
- 🎐 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝘼𝙧𝙪𝙨 🎐`			     
-const hhbut = [
-{buttonId: `${prefix}info`, buttonText: {displayText: '⭐Info'}, type: 1},
-{buttonId: `${prefix}mod`, buttonText: {displayText: '🎋Mods'}, type: 1}
-]
-let hbutto = {
-        image: {url:"https://telegra.ph/file/e377946dbddc72d6ab388.jpg"},
-        caption: hlp,
-        footer: '©Arus 2022',
-        buttons: hhbut,
-        headerType: 4,
-        contextInfo:{"externalAdReply":{
-        title: "𝐙𝐞𝐫𝐨𝐓𝐰𝐨",
-        body: "Created by Arus",
-        thumbnail: await getBuffer("https://telegra.ph/file/49152382cbc038821c147.jpg"),
-}}
+const sections = [
+    {
+	title: "GROUP settings",
+	rows: [
+	    {title: "close", rowId: `${prefix}group close`, description: "This will close the group"},
+	    {title: "open", rowId: `${prefix}group open`, description: "This will open the group"}
+	]
     }
-arus.sendMessage(m.chat,hbutto,{quoted:m})
+]
+const listMessage = {
+  text: "Choose the required setting",
+  footer: "©ARUS",
+  title: "",
+  buttonText: "settings",
+  sections
+}
+                    await arus.sendMessage(m.chat, listMessage)
+
+            }
+}
 arus.sendMessage(m.chat, { text: help, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})
 			   break
 		   case 'session': {
