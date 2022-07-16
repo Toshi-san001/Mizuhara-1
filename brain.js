@@ -238,10 +238,8 @@ m.reply("An Error Occurred")
 console.log(err)
 }
 }
-break
-		   case "h":
-		   case "help":
-                   case 'menu':
+brake 
+                   case 'menu': {
 const sections = [
     {
 	title: "GROUP settings",
