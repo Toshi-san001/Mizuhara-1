@@ -258,9 +258,6 @@ const listMessage = {
 
                     await arus.sendMessage(m.chat, listMessage)
 
-            }
-}
-}
                    brake 
 		   case 'session': {
 			   if (!isCreator) return m.reply("📍The user of this command must be the owner of the bot")
