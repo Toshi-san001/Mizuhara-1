@@ -254,8 +254,8 @@ const listMessage = {
   footer: "©ARUS",
   title: "",
   buttonText: "settings",
-  sections
-}
+  sections:
+
                     await arus.sendMessage(m.chat, listMessage)
 
             }
