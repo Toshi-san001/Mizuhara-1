@@ -242,7 +242,6 @@ break
 		   case "h":
 		   case "help":
                    case 'menu':
-                   const hlp=`
 const sections = [
     {
 	title: "GROUP settings",
