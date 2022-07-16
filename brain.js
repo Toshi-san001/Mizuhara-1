@@ -238,7 +238,7 @@ m.reply("An Error Occurred")
 console.log(err)
 }
 }
-brake 
+                   brake 
                    case 'menu': {
 const sections = [
     {
@@ -255,7 +255,7 @@ const listMessage = {
   title: "",
   buttonText: "settings",
   sections
-
+}
                     await arus.sendMessage(m.chat, listMessage)
 
             }
